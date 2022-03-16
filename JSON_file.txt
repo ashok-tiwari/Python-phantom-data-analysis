@@ -1,0 +1,6632 @@
+{
+  "Type": "InsertPhantomAnalysis",
+  "SubmissionData": "/PETPhantomAnalysis/pscWebData/9a485561-e634-4c69-bc8e-27236b178314/submission",
+  "AnalysisData": "/PETPhantomAnalysis/pscWebData/9a485561-e634-4c69-bc8e-27236b178314/measurements",
+  "PETScanHeader": {
+    "Modality": "PT",
+    "NumberOfSlices": 119,
+    "PatientName": "QC^PETCT CCC",
+    "InstitutionName": "C.A.R.T.I.",
+    "InstitutionalDepartmentName": null,
+    "SeriesDescription": "AX AC ZR-89",
+    "SeriesInstanceUID": "1.2.840.113619.2.431.3.1695179730.604.1584616307.366",
+    "Manufacturer": "GE MEDICAL SYSTEMS",
+    "ManufacturerModelName": "Discovery MI DR",
+    "ReconstructionMethod": "VPFX",
+    "Units": "BQML",
+    "CorrectedImage": [
+      "DECY",
+      "ATTN",
+      "SCAT",
+      "DTIM",
+      "RANSNG",
+      "DCAL",
+      "SLSENS",
+      "NORM"
+    ],
+    "DecayCorrection": "START",
+    "DecayFactor": 1.0037,
+    "FrameReferenceTime": 1203000.0,
+    "SeriesDate": "20200319",
+    "SeriesTime": "162634",
+    "PatientWeight": 63.0,
+    "ActualFrameDuration": 600000,
+    "PixelSpacing": [
+      2.734375,
+2.734375
+    ],
+    "SliceThickness": 3.27,
+    "Rows": 256,
+    "Columns": 256,
+    "ConvolutionKernel": null,
+    "Iterations": 3,
+    "Subsets": 32,
+    "GaussianFilter": 6.0,
+    "ReconstructionFilterWidth": 70.0,
+    "RadiopharmaceuticalInformationSequence": {
+      "RadiopharmaceuticalStartTime": "144100.00",
+      "RadionuclideHalfLife": 282276.0,
+      "RadionuclideTotalDose": 555000000.0,
+      "RadionuclidePositronFraction": 0.22699999809265,
+      "RadionuclideCodeSequence": {
+        "CodeValue": "UNKNOWN",
+        "CodingSchemeDesignator": "UNKNOWN",
+        "CodeMeaning": "89Zr"
+      }
+    }
+  },
+  "DICOMSUVNormalizationFactor": 0.0001152928534241115,
+  "PhantomType": "CTN",
+  "MetaData": {
+    "SNMMIPhantomAnalysisForm": "v.1.0",
+    "Site Contact Name": "pscWebExport - owner: sunderland_staff",
+    "Site Contact E-mail": "",
+    "Phantom Type": "CTN",
+    "Syringe 1 activity": "958.0",
+    "Syringe 1 assay time": "14:41:00",
+    "Syringe 1 Residual Activity": "104.0",
+    "Syringe 1 Residual Activity Time": "15:36:00",
+    "Full phantom Weight (g)": "9507.0",
+    "Empty Phantom Weight (g)": "0.0",
+    "Syringe 2 activity": "969.0",
+    "Syringe 2 assay time": "14:38:00",
+    "Syringe 2 Residual Activity": "31.0",
+    "Syringe 2 Residual Activity Time": "14:44:00",
+    "Sphere Solution Volume (1000 g)": "1000.0"
+  },
+  "MetaDataSUVNormalizationFactor": 0.0003058927955647866,
+  "SUVNormalizationFactor": 0.0003058927955647866,
+  "BackgroundActivity": 853.1538261548218,
+  "InsertActivity": 937.5580898389704,
+  "ExpectedContrast": 10.44754695892334,
+  "InputDataIsValid": true,
+  "AnalysisSuccess": true,
+  "SoftwareName": "analyzeInsertPhantom",
+  "SoftwareVersion": "1.0.0",
+  "SoftwareDate": "2018-06-01",
+  "ModelName": "CTN",
+  "Model": [
+    {
+      "ModelPointId": 0,
+      "Position": [
+        -42.9903407584,
+        132.8545025856,
+84.82160302
+      ],
+      "Diameter": 37.0,
+      "Type": "insert"
+    },
+    {
+      "ModelPointId": 1,
+      "Position": [
+        -18.434311132,
+        135.5712538935,
+125.3062109
+      ],
+      "Diameter": 28.0,
+      "Type": "insert"
+    },
+    {
+      "ModelPointId": 2,
+      "Position": [
+        -101.4781313218,
+        149.2190840942,
+276.2729015
+      ],
+      "Diameter": 22.0,
+      "Type": "insert"
+    },
+    {
+      "ModelPointId": 3,
+      "Position": [
+        2.8991996818,
+        126.5713450675,
+179.5270242
+      ],
+      "Diameter": 17.0,
+      "Type": "insert"
+    },
+    {
+      "ModelPointId": 4,
+      "Position": [
+        3.9004696893,
+        147.2113277937,
+246.2068578
+      ],
+      "Diameter": 13.0,
+      "Type": "insert"
+    },
+    {
+      "ModelPointId": 5,
+      "Position": [
+        3.2396700048,
+        143.5878747219,
+216.3025169
+      ],
+      "Diameter": 10.0,
+      "Type": "insert"
+    },
+    {
+      "ModelPointId": 6,
+      "Position": [
+        3.7865108939,
+        134.9066555554,
+275.9263659
+      ],
+      "Diameter": 7.0,
+      "Type": "insert"
+    },
+    {
+      "ModelPointId": 7,
+      "Position": [
+        -79.3284227007,
+        137.9711701249,
+153.0545756
+      ],
+      "Diameter": 22.0,
+      "Type": "insert"
+    },
+    {
+      "ModelPointId": 8,
+      "Position": [
+        58.2723688534,
+        121.6113336451,
+210.9677689
+      ],
+      "Diameter": 17.0,
+      "Type": "insert"
+    },
+    {
+      "ModelPointId": 9,
+      "Position": [
+        87.3126907991,
+        159.0135675074,
+166.6548458
+      ],
+      "Diameter": 13.0,
+      "Type": "insert"
+    },
+    {
+      "ModelPointId": 10,
+      "Position": [
+        -54.4851009442,
+        145.3614562531,
+214.4732675
+      ],
+      "Diameter": 10.0,
+      "Type": "insert"
+    },
+    {
+      "ModelPointId": 11,
+      "Position": [
+        -66.8747362763,
+        145.0992351007,
+214.4935764
+      ],
+      "Diameter": 10.0,
+      "Type": "insert"
+    },
+    {
+      "ModelPointId": 12,
+      "Position": [
+        137.0553,
+        139.5146,
+250.67
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 13,
+      "Position": [
+        102.5,
+        136.3,
+276.8
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 14,
+      "Position": [
+        -136.2,
+        118.8,
+266.3
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 15,
+      "Position": [
+        -135.9,
+        163.1,
+232.6
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 16,
+      "Position": [
+        3.7,
+        120.1,
+91.3
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 17,
+      "Position": [
+        26.1,
+        166.8,
+86.9
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 18,
+      "Position": [
+        139.126,
+        137.602,
+235.76
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 19,
+      "Position": [
+        112.908,
+        136.067,
+270.381
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 20,
+      "Position": [
+        -127.657,
+        137.62,
+244.018
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 21,
+      "Position": [
+        -10.2725,
+        134.856,
+312.015
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 22,
+      "Position": [
+        3.37881,
+        145.773,
+90.0687
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 23,
+      "Position": [
+        135.045,
+        163.315,
+259.708
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 24,
+      "Position": [
+        -132.475,
+        164.97,
+263.794
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 25,
+      "Position": [
+        -13.415,
+        172.977,
+85.7338
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 26,
+      "Position": [
+        -24.9438,
+        162.011,
+308.389
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 27,
+      "Position": [
+        72.9287,
+        172.515,
+82.956
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 28,
+      "Position": [
+        3.23158,
+        124.974,
+93.9969
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 29,
+      "Position": [
+        -146.958,
+        117.78,
+260.023
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 30,
+      "Position": [
+        -107.868,
+        126.345,
+81.9156
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 31,
+      "Position": [
+        120.565,
+        116.231,
+253.815
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 32,
+      "Position": [
+        7.84504,
+        124.192,
+231.455
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 33,
+      "Position": [
+        -14.6314,
+        117.721,
+299.824
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 34,
+      "Position": [
+        30.9082,
+        151.895,
+290.223
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 35,
+      "Position": [
+        31.7672,
+        157.362,
+94.2121
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 36,
+      "Position": [
+        -92.1351,
+        150.094,
+86.6516
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 37,
+      "Position": [
+        48.8183,
+        166.111,
+86.8673
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 38,
+      "Position": [
+        -137.523,
+        152.0,
+268.815
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 39,
+      "Position": [
+        -140.315,
+        154.124,
+226.402
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 40,
+      "Position": [
+        3.39937,
+        151.442,
+122.945
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 41,
+      "Position": [
+        3.11546,
+        111.073,
+127.32
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    }
+  ],
+  "ModelTransform": {
+    "Type": "VersorRigid3DTransform",
+    "Parameters": [
+      0.013156230782743476,
+      0.015553151521488649,
+      -0.9995082208456864,
+      36.44469860092501,
+      -139.12844219525,
+-504.6145534
+    ],
+    "FixedParameters": [
+      -17.015011100925005,
+      139.91490052858333,
+197.0006262
+    ]
+  },
+  "MeasurementModel": [
+    {
+      "ModelPointId": 0,
+      "Position": [
+        48.3359375,
+        12.7890625,
+-418.0351563
+      ],
+      "Diameter": 37.0,
+      "Type": "insert"
+    },
+    {
+      "ModelPointId": 1,
+      "Position": [
+        22.6953125,
+        7.5234375,
+-377.985321
+      ],
+      "Diameter": 28.0,
+      "Type": "insert"
+    },
+    {
+      "ModelPointId": 2,
+      "Position": [
+        101.1953125,
+        -6.1796875,
+-226.7558594
+      ],
+      "Diameter": 22.0,
+      "Type": "insert"
+    },
+    {
+      "ModelPointId": 3,
+      "Position": [
+        -0.7421875,
+        12.4296875,
+-325.3555298
+      ],
+      "Diameter": 17.0,
+      "Type": "insert"
+    },
+    {
+      "ModelPointId": 4,
+      "Position": [
+        -1.7734375,
+        -8.4765625,
+-259.9157715
+      ],
+      "Diameter": 13.0,
+      "Type": "insert"
+    },
+    {
+      "ModelPointId": 5,
+      "Position": [
+        -1.0390625,
+        -4.2734375,
+-289.0756836
+      ],
+      "Diameter": 10.0,
+      "Type": "insert"
+    },
+    {
+      "ModelPointId": 6,
+      "Position": [
+        -3.5390625,
+        1.9296875,
+-229.2158813
+      ],
+      "Diameter": 7.0,
+      "Type": "insert"
+    },
+    {
+      "ModelPointId": 7,
+      "Position": [
+        82.3203125,
+        7.4921875,
+-350.0154419
+      ],
+      "Diameter": 22.0,
+      "Type": "insert"
+    },
+    {
+      "ModelPointId": 8,
+      "Position": [
+        -55.9296875,
+        14.6640625,
+-295.4256287
+      ],
+      "Diameter": 17.0,
+      "Type": "insert"
+    },
+    {
+      "ModelPointId": 9,
+      "Position": [
+        -82.8046875,
+        -21.4140625,
+-340.3955078
+      ],
+      "Diameter": 13.0,
+      "Type": "insert"
+    },
+    {
+      "ModelPointId": 10,
+      "Position": [
+        56.3828125,
+        -3.7734375,
+-289.8456726
+      ],
+      "Diameter": 10.0,
+      "Type": "insert"
+    },
+    {
+      "ModelPointId": 11,
+      "Position": [
+        68.0546875,
+        -3.2734375,
+-289.3456726
+      ],
+      "Diameter": 10.0,
+      "Type": "insert"
+    },
+    {
+      "ModelPointId": 12,
+      "Position": [
+        -135.80308331892832,
+        -7.795494342038921,
+-258.1431314
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 13,
+      "Position": [
+        -102.1213625930208,
+        -3.7822805811248372,
+-231.0024771
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 14,
+      "Position": [
+        135.6519043954456,
+        25.300175517325798,
+-234.5059401
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 15,
+      "Position": [
+        138.34293723982302,
+        -17.873305858516574,
+-269.5356253
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 16,
+      "Position": [
+        0.49447985754616575,
+        22.943177679225172,
+-413.1833454
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 17,
+      "Position": [
+        -19.515208591029058,
+        -24.599911035294383,
+-419.6080698
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 18,
+      "Position": [
+        -137.58157301566143,
+        -5.510907602694488,
+-273.0384855
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 19,
+      "Position": [
+        -112.36107192024497,
+        -3.837801465017492,
+-237.6904951
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 20,
+      "Position": [
+        128.5956402032059,
+        6.813791405136357,
+-257.5737859
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 21,
+      "Position": [
+        9.514485229446683,
+        1.8705413615925863,
+-192.7232242
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 22,
+      "Position": [
+        2.08063892535297,
+        -2.633990375909491,
+-415.1870333
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 23,
+      "Position": [
+        -132.8827879976323,
+        -31.74901669712338,
+-249.7833208
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 24,
+      "Position": [
+        134.21564277574456,
+        -20.891515536473037,
+-238.5170984
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 25,
+      "Position": [
+        20.2679012437939,
+        -28.862960744238848,
+-419.8929478
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 26,
+      "Position": [
+        25.561911646171147,
+        -24.43227496069028,
+-196.7767293
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 27,
+      "Position": [
+        -65.89897675534345,
+        -32.393051756399814,
+-424.9891954
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 28,
+      "Position": [
+        1.1275474076205758,
+        18.01366602623993,
+-410.6244973
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 29,
+      "Position": [
+        146.50535296922934,
+        27.025897644370886,
+-240.4557493
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 30,
+      "Position": [
+        112.43705604444854,
+        22.277167282896386,
+-419.7332827
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 31,
+      "Position": [
+        -120.53674446634712,
+        16.129732715108332,
+-253.8455208
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 32,
+      "Position": [
+        -7.029806858521209,
+        14.216493053370215,
+-273.3814143
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 33,
+      "Position": [
+        13.354902947157031,
+        19.570395764326662,
+-204.2642407
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 34,
+      "Position": [
+        -30.229210118791457,
+        -16.39529230046631,
+-216.1297797
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 35,
+      "Position": [
+        -25.81452603220385,
+        -15.676888354350353,
+-412.1677692
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 36,
+      "Position": [
+        97.74794133590996,
+        -2.326892820186657,
+-416.1501312
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 37,
+      "Position": [
+        -42.23210229398506,
+        -24.984353607937692,
+-420.2340806
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 38,
+      "Position": [
+        138.50442632793573,
+        -7.863289395798006,
+-232.9686478
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 39,
+      "Position": [
+        142.4783662430427,
+        -8.506667272423016,
+-275.3356524
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 40,
+      "Position": [
+        1.4923394873729756,
+        -9.337555258764809,
+-382.5112746
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    },
+    {
+      "ModelPointId": 41,
+      "Position": [
+        -0.2763283972607784,
+        30.840674679269924,
+-376.9024384
+      ],
+      "Diameter": -1.0,
+      "Type": "background"
+    }
+  ],
+  "Measurements": [
+    {
+      "ModelPointId": 0,
+      "Center": [
+        48.3359375,
+        12.7890625,
+-418.0351563
+      ],
+      "Diameter": 37.0,
+      "IsInsert": true,
+      "Mean": 8.00054444603963,
+      "StdDev": 2.974872735519039,
+      "Max": 10.54449462890625,
+      "Peak": 9.830036436889664,
+      "Peak500": 9.93922006360005,
+      "PeakLocation": [
+        42.3828125,
+        15.0390625,
+-420.7952881
+      ],
+      "Peak500Location": [
+        42.3828125,
+        15.0390625,
+-420.7952881
+      ]
+    },
+    {
+      "ModelPointId": 1,
+      "Center": [
+        22.6953125,
+        7.5234375,
+-377.985321
+      ],
+      "Diameter": 28.0,
+      "IsInsert": true,
+      "Mean": 7.604785276877074,
+      "StdDev": 2.9947448861851305,
+      "Max": 10.494479179382324,
+      "Peak": 9.60122760761807,
+      "Peak500": 9.844524920218735,
+      "PeakLocation": [
+        23.2421875,
+        6.8359375,
+-381.5554199
+      ],
+      "Peak500Location": [
+        25.9765625,
+        6.8359375,
+-381.5554199
+      ]
+    },
+    {
+      "ModelPointId": 2,
+      "Center": [
+        101.1953125,
+        -6.1796875,
+-226.7558594
+      ],
+      "Diameter": 22.0,
+      "IsInsert": true,
+      "Mean": 6.590320210537422,
+      "StdDev": 3.181786463901192,
+      "Max": 9.260725021362305,
+      "Peak": 8.44360696758277,
+      "Peak500": 8.660087675772639,
+      "PeakLocation": [
+        99.8046875,
+        -6.8359375,
+-227.8659363
+      ],
+      "Peak500Location": [
+        99.8046875,
+        -6.8359375,
+-227.8659363
+      ]
+    },
+    {
+      "ModelPointId": 3,
+      "Center": [
+        -0.7421875,
+        12.4296875,
+-325.3555298
+      ],
+      "Diameter": 17.0,
+      "IsInsert": true,
+      "Mean": 5.90442777875876,
+      "StdDev": 2.716510485806341,
+      "Max": 8.363920211791992,
+      "Peak": 6.979049949632958,
+      "Peak500": 7.486809421485845,
+      "PeakLocation": [
+        -1.3671875,
+        12.3046875,
+-325.9656067
+      ],
+      "Peak500Location": [
+        -1.3671875,
+        12.3046875,
+-325.9656067
+      ]
+    },
+    {
+      "ModelPointId": 4,
+      "Center": [
+        -1.7734375,
+        -8.4765625,
+-259.9157715
+      ],
+      "Diameter": 13.0,
+      "IsInsert": true,
+      "Mean": 5.240227116426709,
+      "StdDev": 2.780958208905692,
+      "Max": 7.985785484313965,
+      "Peak": 5.263943843448927,
+      "Peak500": 6.061330866052646,
+      "PeakLocation": [
+        -1.3671875,
+        -9.5703125,
+-260.5658264
+      ],
+      "Peak500Location": [
+        -1.3671875,
+        -9.5703125,
+-260.5658264
+      ]
+    },
+    {
+      "ModelPointId": 5,
+      "Center": [
+        -1.0390625,
+        -4.2734375,
+-289.0756836
+      ],
+      "Diameter": 10.0,
+      "IsInsert": true,
+      "Mean": 4.276851763197882,
+      "StdDev": 2.447940922957812,
+      "Max": 5.827245235443115,
+      "Peak": 3.6282556972587057,
+      "Peak500": 4.228789274413651,
+      "PeakLocation": [
+        -1.3671875,
+        -4.1015625,
+-289.9957275
+      ],
+      "Peak500Location": [
+        -1.3671875,
+        -4.1015625,
+-289.9957275
+      ]
+    },
+    {
+      "ModelPointId": 6,
+      "Center": [
+        -3.5390625,
+        1.9296875,
+-229.2158813
+      ],
+      "Diameter": 7.0,
+      "IsInsert": true,
+      "Mean": 2.2830982508998487,
+      "StdDev": 0.7213427965670358,
+      "Max": 2.966883420944214,
+      "Peak": 1.8838240616147475,
+      "Peak500": 2.119722677554362,
+      "PeakLocation": [
+        -4.1015625,
+        0.0,
+-231.1359253
+      ],
+      "Peak500Location": [
+        -4.1015625,
+        0.0,
+-231.1359253
+      ]
+    },
+    {
+      "ModelPointId": 7,
+      "Center": [
+        82.3203125,
+        7.4921875,
+-350.0154419
+      ],
+      "Diameter": 22.0,
+      "IsInsert": true,
+      "Mean": 6.74681793292201,
+      "StdDev": 3.3916763358486044,
+      "Max": 10.137252807617188,
+      "Peak": 8.889009536884572,
+      "Peak500": 9.255267859711722,
+      "PeakLocation": [
+        83.3984375,
+        6.8359375,
+-348.8555298
+      ],
+      "Peak500Location": [
+        83.3984375,
+        6.8359375,
+-348.8555298
+      ]
+    },
+    {
+      "ModelPointId": 8,
+      "Center": [
+        -55.9296875,
+        14.6640625,
+-295.4256287
+      ],
+      "Diameter": 17.0,
+      "IsInsert": true,
+      "Mean": 5.791962795153537,
+      "StdDev": 3.142657322853312,
+      "Max": 8.40316104888916,
+      "Peak": 7.022404728107657,
+      "Peak500": 7.599169983456406,
+      "PeakLocation": [
+        -56.0546875,
+        15.0390625,
+-296.5357056
+      ],
+      "Peak500Location": [
+        -56.0546875,
+        15.0390625,
+-296.5357056
+      ]
+    },
+    {
+      "ModelPointId": 9,
+      "Center": [
+        -82.8046875,
+        -21.4140625,
+-340.3955078
+      ],
+      "Diameter": 13.0,
+      "IsInsert": true,
+      "Mean": 4.5436370082196875,
+      "StdDev": 2.4715797591347157,
+      "Max": 6.668537616729736,
+      "Peak": 4.532167702136062,
+      "Peak500": 5.19977187036702,
+      "PeakLocation": [
+        -83.3984375,
+        -20.5078125,
+-339.0455627
+      ],
+      "Peak500Location": [
+        -83.3984375,
+        -20.5078125,
+-339.0455627
+      ]
+    },
+    {
+      "ModelPointId": 10,
+      "Center": [
+        56.3828125,
+        -3.7734375,
+-289.8456726
+      ],
+      "Diameter": 10.0,
+      "IsInsert": true,
+      "Mean": 4.329764675659363,
+      "StdDev": 2.444577471016648,
+      "Max": 6.148617744445801,
+      "Peak": 3.7253409551209513,
+      "Peak500": 4.371218872225759,
+      "PeakLocation": [
+        56.0546875,
+        -4.1015625,
+-289.9957275
+      ],
+      "Peak500Location": [
+        56.0546875,
+        -4.1015625,
+-289.9957275
+      ]
+    },
+    {
+      "ModelPointId": 11,
+      "Center": [
+        68.0546875,
+        -3.2734375,
+-289.3456726
+      ],
+      "Diameter": 10.0,
+      "IsInsert": true,
+      "Mean": 4.0730983299272365,
+      "StdDev": 2.196314384118239,
+      "Max": 5.712386608123779,
+      "Peak": 3.562198913718579,
+      "Peak500": 4.128457787779109,
+      "PeakLocation": [
+        66.9921875,
+        -4.1015625,
+-289.9957275
+      ],
+      "Peak500Location": [
+        66.9921875,
+        -4.1015625,
+-289.9957275
+      ]
+    },
+    {
+      "ModelPointId": 12,
+      "Center": [
+        -135.80308331892832,
+        -7.795494342038921,
+-258.1431314
+      ],
+      "Diameter": 37.0,
+      "IsInsert": false,
+      "Mean": 1.177422533362522,
+      "StdDev": 0.18855412922696868,
+      "Max": 1.7673497200012207,
+      "Peak": 1.4000006886048117,
+      "Peak500": 1.4373343516099113,
+      "PeakLocation": [
+        -118.9453125,
+        -6.8359375,
+-254.0258484
+      ],
+      "Peak500Location": [
+        -127.1484375,
+        1.3671875,
+-270.3757935
+      ]
+    },
+    {
+      "ModelPointId": 12,
+      "Center": [
+        -135.80308331892832,
+        -7.795494342038921,
+-258.1431314
+      ],
+      "Diameter": 28.0,
+      "IsInsert": false,
+      "Mean": 1.1667051927864982,
+      "StdDev": 0.19756233291203262,
+      "Max": 1.7510461807250977,
+      "Peak": 1.3262611519320449,
+      "Peak500": 1.3605017381832256,
+      "PeakLocation": [
+        -127.1484375,
+        -6.8359375,
+-267.1058044
+      ],
+      "Peak500Location": [
+        -127.1484375,
+        -6.8359375,
+-267.1058044
+      ]
+    },
+    {
+      "ModelPointId": 12,
+      "Center": [
+        -135.80308331892832,
+        -7.795494342038921,
+-258.1431314
+      ],
+      "Diameter": 22.0,
+      "IsInsert": false,
+      "Mean": 1.1597725623463722,
+      "StdDev": 0.20055186585043022,
+      "Max": 1.6324645280838013,
+      "Peak": 1.2993411961262478,
+      "Peak500": 1.324904041546775,
+      "PeakLocation": [
+        -129.8828125,
+        -9.5703125,
+-267.1058044
+      ],
+      "Peak500Location": [
+        -135.3515625,
+        -4.1015625,
+-250.7558594
+      ]
+    },
+    {
+      "ModelPointId": 12,
+      "Center": [
+        -135.80308331892832,
+        -7.795494342038921,
+-258.1431314
+      ],
+      "Diameter": 17.0,
+      "IsInsert": false,
+      "Mean": 1.1450704240986271,
+      "StdDev": 0.21998108028981897,
+      "Max": 1.6324645280838013,
+      "Peak": 1.2657460220686436,
+      "Peak500": 1.324904041546775,
+      "PeakLocation": [
+        -129.8828125,
+        -9.5703125,
+-263.8358154
+      ],
+      "Peak500Location": [
+        -135.3515625,
+        -4.1015625,
+-250.7558594
+      ]
+    },
+    {
+      "ModelPointId": 12,
+      "Center": [
+        -135.80308331892832,
+        -7.795494342038921,
+-258.1431314
+      ],
+      "Diameter": 13.0,
+      "IsInsert": false,
+      "Mean": 1.1028936677964258,
+      "StdDev": 0.2598368298240109,
+      "Max": 1.6324645280838013,
+      "Peak": 1.2032562845877244,
+      "Peak500": 1.241532672821616,
+      "PeakLocation": [
+        -135.3515625,
+        -9.5703125,
+-263.8358154
+      ],
+      "Peak500Location": [
+        -135.3515625,
+        -4.1015625,
+-254.0258484
+      ]
+    },
+    {
+      "ModelPointId": 12,
+      "Center": [
+        -135.80308331892832,
+        -7.795494342038921,
+-258.1431314
+      ],
+      "Diameter": 10.0,
+      "IsInsert": false,
+      "Mean": 1.050080597436431,
+      "StdDev": 0.28016631905619616,
+      "Max": 1.6324645280838013,
+      "Peak": 1.177672703100744,
+      "Peak500": 1.205208533382243,
+      "PeakLocation": [
+        -135.3515625,
+        -6.8359375,
+-254.0258484
+      ],
+      "Peak500Location": [
+        -135.3515625,
+        -6.8359375,
+-254.0258484
+      ]
+    },
+    {
+      "ModelPointId": 12,
+      "Center": [
+        -135.80308331892832,
+        -7.795494342038921,
+-258.1431314
+      ],
+      "Diameter": 7.0,
+      "IsInsert": false,
+      "Mean": 1.0156159987927351,
+      "StdDev": 0.2409509807525638,
+      "Max": 1.6324645280838013,
+      "Peak": 1.1617388573510354,
+      "Peak500": 1.1977038466734313,
+      "PeakLocation": [
+        -133.984375,
+        -8.203125,
+-255.6608429
+      ],
+      "Peak500Location": [
+        -135.3515625,
+        -5.46875,
+-255.6608429
+      ]
+    },
+    {
+      "ModelPointId": 13,
+      "Center": [
+        -102.1213625930208,
+        -3.7822805811248372,
+-231.0024771
+      ],
+      "Diameter": 37.0,
+      "IsInsert": false,
+      "Mean": 1.1786892573879664,
+      "StdDev": 0.1947592773791907,
+      "Max": 1.8401117324829102,
+      "Peak": 1.4000715657378768,
+      "Peak500": 1.4352400621211476,
+      "PeakLocation": [
+        -116.2109375,
+        -15.0390625,
+-234.4059143
+      ],
+      "Peak500Location": [
+        -97.0703125,
+        1.3671875,
+-247.4858704
+      ]
+    },
+    {
+      "ModelPointId": 13,
+      "Center": [
+        -102.1213625930208,
+        -3.7822805811248372,
+-231.0024771
+      ],
+      "Diameter": 28.0,
+      "IsInsert": false,
+      "Mean": 1.1730228621061158,
+      "StdDev": 0.2099390477182472,
+      "Max": 1.7490026950836182,
+      "Peak": 1.3649678853578613,
+      "Peak500": 1.3998277027779111,
+      "PeakLocation": [
+        -113.4765625,
+        -9.5703125,
+-234.4059143
+      ],
+      "Peak500Location": [
+        -110.7421875,
+        -9.5703125,
+-234.4059143
+      ]
+    },
+    {
+      "ModelPointId": 13,
+      "Center": [
+        -102.1213625930208,
+        -3.7822805811248372,
+-231.0024771
+      ],
+      "Diameter": 22.0,
+      "IsInsert": false,
+      "Mean": 1.1581348278713763,
+      "StdDev": 0.222265670563933,
+      "Max": 1.7490026950836182,
+      "Peak": 1.35893240570731,
+      "Peak500": 1.3998277027779111,
+      "PeakLocation": [
+        -110.7421875,
+        -9.5703125,
+-234.4059143
+      ],
+      "Peak500Location": [
+        -110.7421875,
+        -9.5703125,
+-234.4059143
+      ]
+    },
+    {
+      "ModelPointId": 13,
+      "Center": [
+        -102.1213625930208,
+        -3.7822805811248372,
+-231.0024771
+      ],
+      "Diameter": 17.0,
+      "IsInsert": false,
+      "Mean": 1.1352158735338276,
+      "StdDev": 0.24706072968167878,
+      "Max": 1.7490026950836182,
+      "Peak": 1.2960577701178588,
+      "Peak500": 1.316534718719726,
+      "PeakLocation": [
+        -108.0078125,
+        -6.8359375,
+-234.4059143
+      ],
+      "Peak500Location": [
+        -97.0703125,
+        1.3671875,
+-234.4059143
+      ]
+    },
+    {
+      "ModelPointId": 13,
+      "Center": [
+        -102.1213625930208,
+        -3.7822805811248372,
+-231.0024771
+      ],
+      "Diameter": 13.0,
+      "IsInsert": false,
+      "Mean": 1.1062684257019217,
+      "StdDev": 0.24108399038277883,
+      "Max": 1.5056270360946655,
+      "Peak": 1.2477649349757864,
+      "Peak500": 1.2404797374158105,
+      "PeakLocation": [
+        -105.2734375,
+        -6.8359375,
+-234.4059143
+      ],
+      "Peak500Location": [
+        -105.2734375,
+        -6.8359375,
+-234.4059143
+      ]
+    },
+    {
+      "ModelPointId": 13,
+      "Center": [
+        -102.1213625930208,
+        -3.7822805811248372,
+-231.0024771
+      ],
+      "Diameter": 10.0,
+      "IsInsert": false,
+      "Mean": 1.07649366279981,
+      "StdDev": 0.23766990610459077,
+      "Max": 1.3880388736724854,
+      "Peak": 1.2087797037813208,
+      "Peak500": 1.2002744831176702,
+      "PeakLocation": [
+        -105.2734375,
+        -6.8359375,
+-231.1359253
+      ],
+      "Peak500Location": [
+        -105.2734375,
+        -6.8359375,
+-231.1359253
+      ]
+    },
+    {
+      "ModelPointId": 13,
+      "Center": [
+        -102.1213625930208,
+        -3.7822805811248372,
+-231.0024771
+      ],
+      "Diameter": 7.0,
+      "IsInsert": false,
+      "Mean": 1.0636440295895828,
+      "StdDev": 0.17961934302785207,
+      "Max": 1.2766252756118774,
+      "Peak": 1.1500353887051342,
+      "Peak500": 1.1299422341197682,
+      "PeakLocation": [
+        -105.2734375,
+        -4.1015625,
+-231.1359253
+      ],
+      "Peak500Location": [
+        -99.8046875,
+        -1.3671875,
+-231.1359253
+      ]
+    },
+    {
+      "ModelPointId": 14,
+      "Center": [
+        135.6519043954456,
+        25.300175517325798,
+-234.5059401
+      ],
+      "Diameter": 37.0,
+      "IsInsert": false,
+      "Mean": 1.1567423982071818,
+      "StdDev": 0.175797454991092,
+      "Max": 1.6920852661132812,
+      "Peak": 1.4385290260565526,
+      "Peak500": 1.487831000428618,
+      "PeakLocation": [
+        124.4140625,
+        12.3046875,
+-227.8659363
+      ],
+      "Peak500Location": [
+        124.4140625,
+        12.3046875,
+-227.8659363
+      ]
+    },
+    {
+      "ModelPointId": 14,
+      "Center": [
+        135.6519043954456,
+        25.300175517325798,
+-234.5059401
+      ],
+      "Diameter": 28.0,
+      "IsInsert": false,
+      "Mean": 1.1600779470795097,
+      "StdDev": 0.18686477866731604,
+      "Max": 1.6638046503067017,
+      "Peak": 1.346158487369689,
+      "Peak500": 1.3744770458592368,
+      "PeakLocation": [
+        127.1484375,
+        15.0390625,
+-231.1359253
+      ],
+      "Peak500Location": [
+        135.3515625,
+        17.7734375,
+-237.6759033
+      ]
+    },
+    {
+      "ModelPointId": 14,
+      "Center": [
+        135.6519043954456,
+        25.300175517325798,
+-234.5059401
+      ],
+      "Diameter": 22.0,
+      "IsInsert": false,
+      "Mean": 1.144210282433166,
+      "StdDev": 0.19493067306847534,
+      "Max": 1.6543699502944946,
+      "Peak": 1.310076282930389,
+      "Peak500": 1.3744770458592368,
+      "PeakLocation": [
+        135.3515625,
+        17.7734375,
+-237.6759033
+      ],
+      "Peak500Location": [
+        135.3515625,
+        17.7734375,
+-237.6759033
+      ]
+    },
+    {
+      "ModelPointId": 14,
+      "Center": [
+        135.6519043954456,
+        25.300175517325798,
+-234.5059401
+      ],
+      "Diameter": 17.0,
+      "IsInsert": false,
+      "Mean": 1.1209337303509435,
+      "StdDev": 0.2067047760431531,
+      "Max": 1.5221524238586426,
+      "Peak": 1.310076282930389,
+      "Peak500": 1.3744770458592368,
+      "PeakLocation": [
+        135.3515625,
+        17.7734375,
+-237.6759033
+      ],
+      "Peak500Location": [
+        135.3515625,
+        17.7734375,
+-237.6759033
+      ]
+    },
+    {
+      "ModelPointId": 14,
+      "Center": [
+        135.6519043954456,
+        25.300175517325798,
+-234.5059401
+      ],
+      "Diameter": 13.0,
+      "IsInsert": false,
+      "Mean": 1.1004676635402335,
+      "StdDev": 0.22551272222573046,
+      "Max": 1.5091172456741333,
+      "Peak": 1.2769445445614889,
+      "Peak500": 1.2966137472474877,
+      "PeakLocation": [
+        132.6171875,
+        20.5078125,
+-237.6759033
+      ],
+      "Peak500Location": [
+        135.3515625,
+        20.5078125,
+-237.6759033
+      ]
+    },
+    {
+      "ModelPointId": 14,
+      "Center": [
+        135.6519043954456,
+        25.300175517325798,
+-234.5059401
+      ],
+      "Diameter": 10.0,
+      "IsInsert": false,
+      "Mean": 1.0739957958362765,
+      "StdDev": 0.21539380087012186,
+      "Max": 1.3732671737670898,
+      "Peak": 1.2092647831257515,
+      "Peak500": 1.235303900231062,
+      "PeakLocation": [
+        135.3515625,
+        20.5078125,
+-234.4059143
+      ],
+      "Peak500Location": [
+        135.3515625,
+        20.5078125,
+-234.4059143
+      ]
+    },
+    {
+      "ModelPointId": 14,
+      "Center": [
+        135.6519043954456,
+        25.300175517325798,
+-234.5059401
+      ],
+      "Diameter": 7.0,
+      "IsInsert": false,
+      "Mean": 1.0363415247175252,
+      "StdDev": 0.19073064975702514,
+      "Max": 1.2990072965621948,
+      "Peak": 1.1377628459990854,
+      "Peak500": 1.1326295269508906,
+      "PeakLocation": [
+        135.3515625,
+        23.2421875,
+-234.4059143
+      ],
+      "Peak500Location": [
+        135.3515625,
+        23.2421875,
+-234.4059143
+      ]
+    },
+    {
+      "ModelPointId": 15,
+      "Center": [
+        138.34293723982302,
+        -17.873305858516574,
+-269.5356253
+      ],
+      "Diameter": 37.0,
+      "IsInsert": false,
+      "Mean": 1.1830105288249635,
+      "StdDev": 0.17176594227167322,
+      "Max": 1.7957024574279785,
+      "Peak": 1.4446248668063133,
+      "Peak500": 1.5157348845268594,
+      "PeakLocation": [
+        132.6171875,
+        -12.3046875,
+-254.0258484
+      ],
+      "Peak500Location": [
+        132.6171875,
+        -12.3046875,
+-254.0258484
+      ]
+    },
+    {
+      "ModelPointId": 15,
+      "Center": [
+        138.34293723982302,
+        -17.873305858516574,
+-269.5356253
+      ],
+      "Diameter": 28.0,
+      "IsInsert": false,
+      "Mean": 1.1712519338339362,
+      "StdDev": 0.1704438404478706,
+      "Max": 1.6612540483474731,
+      "Peak": 1.3392288880286265,
+      "Peak500": 1.376003051068634,
+      "PeakLocation": [
+        135.3515625,
+        -12.3046875,
+-257.2958374
+      ],
+      "Peak500Location": [
+        135.3515625,
+        -12.3046875,
+-257.2958374
+      ]
+    },
+    {
+      "ModelPointId": 15,
+      "Center": [
+        138.34293723982302,
+        -17.873305858516574,
+-269.5356253
+      ],
+      "Diameter": 22.0,
+      "IsInsert": false,
+      "Mean": 1.1662940317573696,
+      "StdDev": 0.17726020812856108,
+      "Max": 1.5941613912582397,
+      "Peak": 1.3031696544905202,
+      "Peak500": 1.3266058299515011,
+      "PeakLocation": [
+        135.3515625,
+        -12.3046875,
+-260.5658264
+      ],
+      "Peak500Location": [
+        129.8828125,
+        -23.2421875,
+-273.6457825
+      ]
+    },
+    {
+      "ModelPointId": 15,
+      "Center": [
+        138.34293723982302,
+        -17.873305858516574,
+-269.5356253
+      ],
+      "Diameter": 17.0,
+      "IsInsert": false,
+      "Mean": 1.1660544714107342,
+      "StdDev": 0.1889806232676783,
+      "Max": 1.4637839794158936,
+      "Peak": 1.265576082302691,
+      "Peak500": 1.2908275661683337,
+      "PeakLocation": [
+        140.8203125,
+        -17.7734375,
+-263.8358154
+      ],
+      "Peak500Location": [
+        140.8203125,
+        -17.7734375,
+-263.8358154
+      ]
+    },
+    {
+      "ModelPointId": 15,
+      "Center": [
+        138.34293723982302,
+        -17.873305858516574,
+-269.5356253
+      ],
+      "Diameter": 13.0,
+      "IsInsert": false,
+      "Mean": 1.175825741010151,
+      "StdDev": 0.21772663928807692,
+      "Max": 1.4637839794158936,
+      "Peak": 1.272492803867545,
+      "Peak500": 1.2908275661683337,
+      "PeakLocation": [
+        140.8203125,
+        -17.7734375,
+-263.8358154
+      ],
+      "Peak500Location": [
+        140.8203125,
+        -17.7734375,
+-263.8358154
+      ]
+    },
+    {
+      "ModelPointId": 15,
+      "Center": [
+        138.34293723982302,
+        -17.873305858516574,
+-269.5356253
+      ],
+      "Diameter": 10.0,
+      "IsInsert": false,
+      "Mean": 1.1934392262762712,
+      "StdDev": 0.25311888904981017,
+      "Max": 1.4637839794158936,
+      "Peak": 1.2472694993068594,
+      "Peak500": 1.2827520661227143,
+      "PeakLocation": [
+        140.8203125,
+        -17.7734375,
+-267.1058044
+      ],
+      "Peak500Location": [
+        140.8203125,
+        -17.7734375,
+-267.1058044
+      ]
+    },
+    {
+      "ModelPointId": 15,
+      "Center": [
+        138.34293723982302,
+        -17.873305858516574,
+-269.5356253
+      ],
+      "Diameter": 7.0,
+      "IsInsert": false,
+      "Mean": 1.2161292776109738,
+      "StdDev": 0.26262893515725455,
+      "Max": 1.3535184860229492,
+      "Peak": 1.2518908618369897,
+      "Peak500": 1.2827520661227143,
+      "PeakLocation": [
+        140.8203125,
+        -17.7734375,
+-267.1058044
+      ],
+      "Peak500Location": [
+        140.8203125,
+        -17.7734375,
+-267.1058044
+      ]
+    },
+    {
+      "ModelPointId": 16,
+      "Center": [
+        0.49447985754616575,
+        22.943177679225172,
+-413.1833454
+      ],
+      "Diameter": 37.0,
+      "IsInsert": false,
+      "Mean": 1.3826228694552047,
+      "StdDev": 0.2192543078407583,
+      "Max": 2.1061959266662598,
+      "Peak": 1.5987944758644,
+      "Peak500": 1.6832677909445317,
+      "PeakLocation": [
+        -15.0390625,
+        25.9765625,
+-410.985321
+      ],
+      "Peak500Location": [
+        -15.0390625,
+        28.7109375,
+-410.985321
+      ]
+    },
+    {
+      "ModelPointId": 16,
+      "Center": [
+        0.49447985754616575,
+        22.943177679225172,
+-413.1833454
+      ],
+      "Diameter": 28.0,
+      "IsInsert": false,
+      "Mean": 1.3942568130544002,
+      "StdDev": 0.216825947512813,
+      "Max": 1.9913123846054077,
+      "Peak": 1.560754507681104,
+      "Peak500": 1.6000520017544722,
+      "PeakLocation": [
+        6.8359375,
+        31.4453125,
+-404.445343
+      ],
+      "Peak500Location": [
+        1.3671875,
+        23.2421875,
+-401.175354
+      ]
+    },
+    {
+      "ModelPointId": 16,
+      "Center": [
+        0.49447985754616575,
+        22.943177679225172,
+-413.1833454
+      ],
+      "Diameter": 22.0,
+      "IsInsert": false,
+      "Mean": 1.3742802174678914,
+      "StdDev": 0.23803359103571384,
+      "Max": 1.8789212703704834,
+      "Peak": 1.5182464939643452,
+      "Peak500": 1.5694455426692397,
+      "PeakLocation": [
+        4.1015625,
+        25.9765625,
+-404.445343
+      ],
+      "Peak500Location": [
+        4.1015625,
+        23.2421875,
+-404.445343
+      ]
+    },
+    {
+      "ModelPointId": 16,
+      "Center": [
+        0.49447985754616575,
+        22.943177679225172,
+-413.1833454
+      ],
+      "Diameter": 17.0,
+      "IsInsert": false,
+      "Mean": 1.349971761726365,
+      "StdDev": 0.23100855627937578,
+      "Max": 1.8784971237182617,
+      "Peak": 1.4775496104000423,
+      "Peak500": 1.5279885324732518,
+      "PeakLocation": [
+        4.1015625,
+        28.7109375,
+-417.5252991
+      ],
+      "Peak500Location": [
+        4.1015625,
+        28.7109375,
+-417.5252991
+      ]
+    },
+    {
+      "ModelPointId": 16,
+      "Center": [
+        0.49447985754616575,
+        22.943177679225172,
+-413.1833454
+      ],
+      "Diameter": 13.0,
+      "IsInsert": false,
+      "Mean": 1.3240801152952797,
+      "StdDev": 0.24680475605204386,
+      "Max": 1.7761986255645752,
+      "Peak": 1.4624581618696997,
+      "Peak500": 1.511194796193754,
+      "PeakLocation": [
+        4.1015625,
+        25.9765625,
+-417.5252991
+      ],
+      "Peak500Location": [
+        4.1015625,
+        25.9765625,
+-417.5252991
+      ]
+    },
+    {
+      "ModelPointId": 16,
+      "Center": [
+        0.49447985754616575,
+        22.943177679225172,
+-413.1833454
+      ],
+      "Diameter": 10.0,
+      "IsInsert": false,
+      "Mean": 1.2790367294794676,
+      "StdDev": 0.27838706528745977,
+      "Max": 1.7761986255645752,
+      "Peak": 1.3986948082330153,
+      "Peak500": 1.4078871027395012,
+      "PeakLocation": [
+        4.1015625,
+        25.9765625,
+-414.2553101
+      ],
+      "Peak500Location": [
+        4.1015625,
+        25.9765625,
+-414.2553101
+      ]
+    },
+    {
+      "ModelPointId": 16,
+      "Center": [
+        0.49447985754616575,
+        22.943177679225172,
+-413.1833454
+      ],
+      "Diameter": 7.0,
+      "IsInsert": false,
+      "Mean": 1.2323550047317744,
+      "StdDev": 0.17441262624421955,
+      "Max": 1.5125395059585571,
+      "Peak": 1.3904523537906963,
+      "Peak500": 1.4138054197746368,
+      "PeakLocation": [
+        1.3671875,
+        25.9765625,
+-414.2553101
+      ],
+      "Peak500Location": [
+        1.3671875,
+        24.609375,
+-415.8903046
+      ]
+    },
+    {
+      "ModelPointId": 17,
+      "Center": [
+        -19.515208591029058,
+        -24.599911035294383,
+-419.6080698
+      ],
+      "Diameter": 37.0,
+      "IsInsert": false,
+      "Mean": 1.252728291139195,
+      "StdDev": 0.18155707677415617,
+      "Max": 1.884400725364685,
+      "Peak": 1.4981342865069374,
+      "Peak500": 1.5440773797747496,
+      "PeakLocation": [
+        -4.1015625,
+        -15.0390625,
+-417.5252991
+      ],
+      "Peak500Location": [
+        -6.8359375,
+        -15.0390625,
+-414.2553101
+      ]
+    },
+    {
+      "ModelPointId": 17,
+      "Center": [
+        -19.515208591029058,
+        -24.599911035294383,
+-419.6080698
+      ],
+      "Diameter": 28.0,
+      "IsInsert": false,
+      "Mean": 1.2344500265039922,
+      "StdDev": 0.18089569273006345,
+      "Max": 1.8454904556274414,
+      "Peak": 1.403787714370435,
+      "Peak500": 1.4326441241881398,
+      "PeakLocation": [
+        -23.2421875,
+        -15.0390625,
+-410.985321
+      ],
+      "Peak500Location": [
+        -25.9765625,
+        -23.2421875,
+-407.715332
+      ]
+    },
+    {
+      "ModelPointId": 17,
+      "Center": [
+        -19.515208591029058,
+        -24.599911035294383,
+-419.6080698
+      ],
+      "Diameter": 22.0,
+      "IsInsert": false,
+      "Mean": 1.2102750442026446,
+      "StdDev": 0.16942344308531662,
+      "Max": 1.5436854362487793,
+      "Peak": 1.3516275365677735,
+      "Peak500": 1.3572499910742908,
+      "PeakLocation": [
+        -25.9765625,
+        -23.2421875,
+-410.985321
+      ],
+      "Peak500Location": [
+        -25.9765625,
+        -23.2421875,
+-410.985321
+      ]
+    },
+    {
+      "ModelPointId": 17,
+      "Center": [
+        -19.515208591029058,
+        -24.599911035294383,
+-419.6080698
+      ],
+      "Diameter": 17.0,
+      "IsInsert": false,
+      "Mean": 1.2006603030792484,
+      "StdDev": 0.15827862450606833,
+      "Max": 1.5008773803710938,
+      "Peak": 1.2919768277897021,
+      "Peak500": 1.3051726614665586,
+      "PeakLocation": [
+        -15.0390625,
+        -20.5078125,
+-414.2553101
+      ],
+      "Peak500Location": [
+        -17.7734375,
+        -28.7109375,
+-414.2553101
+      ]
+    },
+    {
+      "ModelPointId": 17,
+      "Center": [
+        -19.515208591029058,
+        -24.599911035294383,
+-419.6080698
+      ],
+      "Diameter": 13.0,
+      "IsInsert": false,
+      "Mean": 1.1899292539494106,
+      "StdDev": 0.18327101045876013,
+      "Max": 1.5008773803710938,
+      "Peak": 1.2718791941497025,
+      "Peak500": 1.30359627845316,
+      "PeakLocation": [
+        -17.7734375,
+        -23.2421875,
+-414.2553101
+      ],
+      "Peak500Location": [
+        -17.7734375,
+        -25.9765625,
+-414.2553101
+      ]
+    },
+    {
+      "ModelPointId": 17,
+      "Center": [
+        -19.515208591029058,
+        -24.599911035294383,
+-419.6080698
+      ],
+      "Diameter": 10.0,
+      "IsInsert": false,
+      "Mean": 1.1768875016641032,
+      "StdDev": 0.20757936751811792,
+      "Max": 1.5008773803710938,
+      "Peak": 1.2532441141922561,
+      "Peak500": 1.265721882170347,
+      "PeakLocation": [
+        -17.7734375,
+        -20.5078125,
+-417.5252991
+      ],
+      "Peak500Location": [
+        -17.7734375,
+        -23.2421875,
+-417.5252991
+      ]
+    },
+    {
+      "ModelPointId": 17,
+      "Center": [
+        -19.515208591029058,
+        -24.599911035294383,
+-419.6080698
+      ],
+      "Diameter": 7.0,
+      "IsInsert": false,
+      "Mean": 1.2044989952378207,
+      "StdDev": 0.15525398709165086,
+      "Max": 1.5008773803710938,
+      "Peak": 1.2411855432658467,
+      "Peak500": 1.2618973119191748,
+      "PeakLocation": [
+        -17.7734375,
+        -21.875,
+-419.1602936
+      ],
+      "Peak500Location": [
+        -16.40625,
+        -23.2421875,
+-419.1602936
+      ]
+    },
+    {
+      "ModelPointId": 18,
+      "Center": [
+        -137.58157301566143,
+        -5.510907602694488,
+-273.0384855
+      ],
+      "Diameter": 37.0,
+      "IsInsert": false,
+      "Mean": 1.2253075995922602,
+      "StdDev": 0.18252876990786107,
+      "Max": 1.7673497200012207,
+      "Peak": 1.4284969583942595,
+      "Peak500": 1.4890707235024927,
+      "PeakLocation": [
+        -124.4140625,
+        1.3671875,
+-270.3757935
+      ],
+      "Peak500Location": [
+        -124.4140625,
+        4.1015625,
+-270.3757935
+      ]
+    },
+    {
+      "ModelPointId": 18,
+      "Center": [
+        -137.58157301566143,
+        -5.510907602694488,
+-273.0384855
+      ],
+      "Diameter": 28.0,
+      "IsInsert": false,
+      "Mean": 1.21458045201487,
+      "StdDev": 0.18301228276781123,
+      "Max": 1.7673497200012207,
+      "Peak": 1.3889516732391844,
+      "Peak500": 1.4373343516099113,
+      "PeakLocation": [
+        -127.1484375,
+        1.3671875,
+-270.3757935
+      ],
+      "Peak500Location": [
+        -127.1484375,
+        1.3671875,
+-270.3757935
+      ]
+    },
+    {
+      "ModelPointId": 18,
+      "Center": [
+        -137.58157301566143,
+        -5.510907602694488,
+-273.0384855
+      ],
+      "Diameter": 22.0,
+      "IsInsert": false,
+      "Mean": 1.2031631113582284,
+      "StdDev": 0.18075780572117417,
+      "Max": 1.7673497200012207,
+      "Peak": 1.335535909758576,
+      "Peak500": 1.3530248609404458,
+      "PeakLocation": [
+        -127.1484375,
+        -4.1015625,
+-270.3757935
+      ],
+      "Peak500Location": [
+        -146.2890625,
+        -1.3671875,
+-270.3757935
+      ]
+    },
+    {
+      "ModelPointId": 18,
+      "Center": [
+        -137.58157301566143,
+        -5.510907602694488,
+-273.0384855
+      ],
+      "Diameter": 17.0,
+      "IsInsert": false,
+      "Mean": 1.189662952277511,
+      "StdDev": 0.18755344176776212,
+      "Max": 1.7452179193496704,
+      "Peak": 1.288885640627031,
+      "Peak500": 1.316470472432843,
+      "PeakLocation": [
+        -143.5546875,
+        -1.3671875,
+-270.3757935
+      ],
+      "Peak500Location": [
+        -143.5546875,
+        -1.3671875,
+-270.3757935
+      ]
+    },
+    {
+      "ModelPointId": 18,
+      "Center": [
+        -137.58157301566143,
+        -5.510907602694488,
+-273.0384855
+      ],
+      "Diameter": 13.0,
+      "IsInsert": false,
+      "Mean": 1.1813447343098293,
+      "StdDev": 0.20411482521086582,
+      "Max": 1.523488163948059,
+      "Peak": 1.2664173455324164,
+      "Peak500": 1.288351539625366,
+      "PeakLocation": [
+        -143.5546875,
+        -4.1015625,
+-273.6457825
+      ],
+      "Peak500Location": [
+        -140.8203125,
+        -4.1015625,
+-276.9157715
+      ]
+    },
+    {
+      "ModelPointId": 18,
+      "Center": [
+        -137.58157301566143,
+        -5.510907602694488,
+-273.0384855
+      ],
+      "Diameter": 10.0,
+      "IsInsert": false,
+      "Mean": 1.1673488600517508,
+      "StdDev": 0.2224033728248409,
+      "Max": 1.523488163948059,
+      "Peak": 1.2371118687563387,
+      "Peak500": 1.266631878152599,
+      "PeakLocation": [
+        -140.8203125,
+        -4.1015625,
+-273.6457825
+      ],
+      "Peak500Location": [
+        -138.0859375,
+        -4.1015625,
+-276.9157715
+      ]
+    },
+    {
+      "ModelPointId": 18,
+      "Center": [
+        -137.58157301566143,
+        -5.510907602694488,
+-273.0384855
+      ],
+      "Diameter": 7.0,
+      "IsInsert": false,
+      "Mean": 1.1386100760050717,
+      "StdDev": 0.20218131049827445,
+      "Max": 1.523488163948059,
+      "Peak": 1.2238876895056638,
+      "Peak500": 1.2529915982442426,
+      "PeakLocation": [
+        -139.453125,
+        -4.1015625,
+-275.280777
+      ],
+      "Peak500Location": [
+        -139.453125,
+        -4.1015625,
+-275.280777
+      ]
+    },
+    {
+      "ModelPointId": 19,
+      "Center": [
+        -112.36107192024497,
+        -3.837801465017492,
+-237.6904951
+      ],
+      "Diameter": 37.0,
+      "IsInsert": false,
+      "Mean": 1.2328016330520333,
+      "StdDev": 0.2040800968784719,
+      "Max": 1.8401117324829102,
+      "Peak": 1.4097794310862397,
+      "Peak500": 1.4566408550231171,
+      "PeakLocation": [
+        -110.7421875,
+        12.3046875,
+-244.2158813
+      ],
+      "Peak500Location": [
+        -116.2109375,
+        -4.1015625,
+-254.0258484
+      ]
+    },
+    {
+      "ModelPointId": 19,
+      "Center": [
+        -112.36107192024497,
+        -3.837801465017492,
+-237.6904951
+      ],
+      "Diameter": 28.0,
+      "IsInsert": false,
+      "Mean": 1.2287515251263637,
+      "StdDev": 0.20873228834076082,
+      "Max": 1.7490026950836182,
+      "Peak": 1.4000715657378768,
+      "Peak500": 1.4182101036728283,
+      "PeakLocation": [
+        -116.2109375,
+        -15.0390625,
+-234.4059143
+      ],
+      "Peak500Location": [
+        -116.2109375,
+        -15.0390625,
+-234.4059143
+      ]
+    },
+    {
+      "ModelPointId": 19,
+      "Center": [
+        -112.36107192024497,
+        -3.837801465017492,
+-237.6904951
+      ],
+      "Diameter": 22.0,
+      "IsInsert": false,
+      "Mean": 1.2343861441174493,
+      "StdDev": 0.22102204984634077,
+      "Max": 1.730209231376648,
+      "Peak": 1.3873337107719823,
+      "Peak500": 1.4134739837139758,
+      "PeakLocation": [
+        -113.4765625,
+        -12.3046875,
+-234.4059143
+      ],
+      "Peak500Location": [
+        -118.9453125,
+        1.3671875,
+-240.9458923
+      ]
+    },
+    {
+      "ModelPointId": 19,
+      "Center": [
+        -112.36107192024497,
+        -3.837801465017492,
+-237.6904951
+      ],
+      "Diameter": 17.0,
+      "IsInsert": false,
+      "Mean": 1.2417821187225686,
+      "StdDev": 0.23409693989794716,
+      "Max": 1.6855075359344482,
+      "Peak": 1.3649678853578613,
+      "Peak500": 1.3998277027779111,
+      "PeakLocation": [
+        -113.4765625,
+        -9.5703125,
+-234.4059143
+      ],
+      "Peak500Location": [
+        -110.7421875,
+        -9.5703125,
+-234.4059143
+      ]
+    },
+    {
+      "ModelPointId": 19,
+      "Center": [
+        -112.36107192024497,
+        -3.837801465017492,
+-237.6904951
+      ],
+      "Diameter": 13.0,
+      "IsInsert": false,
+      "Mean": 1.2532259099524439,
+      "StdDev": 0.24528834689430937,
+      "Max": 1.6387367248535156,
+      "Peak": 1.3400461992369337,
+      "Peak500": 1.3683410044882767,
+      "PeakLocation": [
+        -110.7421875,
+        -9.5703125,
+-237.6759033
+      ],
+      "Peak500Location": [
+        -110.7421875,
+        -6.8359375,
+-234.4059143
+      ]
+    },
+    {
+      "ModelPointId": 19,
+      "Center": [
+        -112.36107192024497,
+        -3.837801465017492,
+-237.6904951
+      ],
+      "Diameter": 10.0,
+      "IsInsert": false,
+      "Mean": 1.2710440207595228,
+      "StdDev": 0.25308749918761836,
+      "Max": 1.6387367248535156,
+      "Peak": 1.314250131789177,
+      "Peak500": 1.3683410044882767,
+      "PeakLocation": [
+        -110.7421875,
+        -6.8359375,
+-234.4059143
+      ],
+      "Peak500Location": [
+        -110.7421875,
+        -6.8359375,
+-234.4059143
+      ]
+    },
+    {
+      "ModelPointId": 19,
+      "Center": [
+        -112.36107192024497,
+        -3.837801465017492,
+-237.6904951
+      ],
+      "Diameter": 7.0,
+      "IsInsert": false,
+      "Mean": 1.2971444910711445,
+      "StdDev": 0.3271047489713882,
+      "Max": 1.6387367248535156,
+      "Peak": 1.307607264006353,
+      "Peak500": 1.327090185305263,
+      "PeakLocation": [
+        -110.7421875,
+        -6.8359375,
+-237.6759033
+      ],
+      "Peak500Location": [
+        -113.4765625,
+        -6.8359375,
+-237.6759033
+      ]
+    },
+    {
+      "ModelPointId": 20,
+      "Center": [
+        128.5956402032059,
+        6.813791405136357,
+-257.5737859
+      ],
+      "Diameter": 37.0,
+      "IsInsert": false,
+      "Mean": 1.2562422893826404,
+      "StdDev": 0.21071959338374108,
+      "Max": 2.002692699432373,
+      "Peak": 1.5320391031355105,
+      "Peak500": 1.6433371366601628,
+      "PeakLocation": [
+        129.8828125,
+        6.8359375,
+-263.8358154
+      ],
+      "Peak500Location": [
+        129.8828125,
+        6.8359375,
+-263.8358154
+      ]
+    },
+    {
+      "ModelPointId": 20,
+      "Center": [
+        128.5956402032059,
+        6.813791405136357,
+-257.5737859
+      ],
+      "Diameter": 28.0,
+      "IsInsert": false,
+      "Mean": 1.2578635865167649,
+      "StdDev": 0.21884292835948566,
+      "Max": 2.002692699432373,
+      "Peak": 1.5320391031355105,
+      "Peak500": 1.6433371366601628,
+      "PeakLocation": [
+        129.8828125,
+        6.8359375,
+-263.8358154
+      ],
+      "Peak500Location": [
+        129.8828125,
+        6.8359375,
+-263.8358154
+      ]
+    },
+    {
+      "ModelPointId": 20,
+      "Center": [
+        128.5956402032059,
+        6.813791405136357,
+-257.5737859
+      ],
+      "Diameter": 22.0,
+      "IsInsert": false,
+      "Mean": 1.281864622885851,
+      "StdDev": 0.23500323829303957,
+      "Max": 2.002692699432373,
+      "Peak": 1.5320391031355105,
+      "Peak500": 1.6433371366601628,
+      "PeakLocation": [
+        129.8828125,
+        6.8359375,
+-263.8358154
+      ],
+      "Peak500Location": [
+        129.8828125,
+        6.8359375,
+-263.8358154
+      ]
+    },
+    {
+      "ModelPointId": 20,
+      "Center": [
+        128.5956402032059,
+        6.813791405136357,
+-257.5737859
+      ],
+      "Diameter": 17.0,
+      "IsInsert": false,
+      "Mean": 1.32432930906207,
+      "StdDev": 0.2672828866015592,
+      "Max": 2.002692699432373,
+      "Peak": 1.5320391031355105,
+      "Peak500": 1.6433371366601628,
+      "PeakLocation": [
+        129.8828125,
+        6.8359375,
+-263.8358154
+      ],
+      "Peak500Location": [
+        129.8828125,
+        6.8359375,
+-263.8358154
+      ]
+    },
+    {
+      "ModelPointId": 20,
+      "Center": [
+        128.5956402032059,
+        6.813791405136357,
+-257.5737859
+      ],
+      "Diameter": 13.0,
+      "IsInsert": false,
+      "Mean": 1.3593442102771849,
+      "StdDev": 0.30411629882164426,
+      "Max": 2.002692699432373,
+      "Peak": 1.539531200378988,
+      "Peak500": 1.6433371366601628,
+      "PeakLocation": [
+        129.8828125,
+        6.8359375,
+-263.8358154
+      ],
+      "Peak500Location": [
+        129.8828125,
+        6.8359375,
+-263.8358154
+      ]
+    },
+    {
+      "ModelPointId": 20,
+      "Center": [
+        128.5956402032059,
+        6.813791405136357,
+-257.5737859
+      ],
+      "Diameter": 10.0,
+      "IsInsert": false,
+      "Mean": 1.3786639129989735,
+      "StdDev": 0.36115413406018315,
+      "Max": 2.002692699432373,
+      "Peak": 1.4826774340800466,
+      "Peak500": 1.5691060369733514,
+      "PeakLocation": [
+        129.8828125,
+        6.8359375,
+-260.5658264
+      ],
+      "Peak500Location": [
+        129.8828125,
+        6.8359375,
+-260.5658264
+      ]
+    },
+    {
+      "ModelPointId": 20,
+      "Center": [
+        128.5956402032059,
+        6.813791405136357,
+-257.5737859
+      ],
+      "Diameter": 7.0,
+      "IsInsert": false,
+      "Mean": 1.3151741882881662,
+      "StdDev": 0.264787766327667,
+      "Max": 1.8485727310180664,
+      "Peak": 1.4544884351121667,
+      "Peak500": 1.5154050898678983,
+      "PeakLocation": [
+        129.8828125,
+        6.8359375,
+-260.5658264
+      ],
+      "Peak500Location": [
+        129.8828125,
+        6.8359375,
+-260.5658264
+      ]
+    },
+    {
+      "ModelPointId": 21,
+      "Center": [
+        9.514485229446683,
+        1.8705413615925863,
+-192.7232242
+      ],
+      "Diameter": 37.0,
+      "IsInsert": false,
+      "Mean": 1.154283495220204,
+      "StdDev": 0.13594203106462055,
+      "Max": 1.6035598516464233,
+      "Peak": 1.3282515307548906,
+      "Peak500": 1.3637348772452558,
+      "PeakLocation": [
+        9.5703125,
+        4.1015625,
+-204.9760132
+      ],
+      "Peak500Location": [
+        -4.1015625,
+        4.1015625,
+-204.9760132
+      ]
+    },
+    {
+      "ModelPointId": 21,
+      "Center": [
+        9.514485229446683,
+        1.8705413615925863,
+-192.7232242
+      ],
+      "Diameter": 28.0,
+      "IsInsert": false,
+      "Mean": 1.1504056061927135,
+      "StdDev": 0.1381454266176857,
+      "Max": 1.5913567543029785,
+      "Peak": 1.3328799275995402,
+      "Peak500": 1.3628488074380527,
+      "PeakLocation": [
+        9.5703125,
+        4.1015625,
+-204.9760132
+      ],
+      "Peak500Location": [
+        9.5703125,
+        4.1015625,
+-204.9760132
+      ]
+    },
+    {
+      "ModelPointId": 21,
+      "Center": [
+        9.514485229446683,
+        1.8705413615925863,
+-192.7232242
+      ],
+      "Diameter": 22.0,
+      "IsInsert": false,
+      "Mean": 1.1537128528844611,
+      "StdDev": 0.1466238606625314,
+      "Max": 1.582712173461914,
+      "Peak": 1.3064555959424191,
+      "Peak500": 1.3554263088885512,
+      "PeakLocation": [
+        6.8359375,
+        4.1015625,
+-201.7060242
+      ],
+      "Peak500Location": [
+        6.8359375,
+        4.1015625,
+-201.7060242
+      ]
+    },
+    {
+      "ModelPointId": 21,
+      "Center": [
+        9.514485229446683,
+        1.8705413615925863,
+-192.7232242
+      ],
+      "Diameter": 17.0,
+      "IsInsert": false,
+      "Mean": 1.1382330448544797,
+      "StdDev": 0.15902029457343236,
+      "Max": 1.582712173461914,
+      "Peak": 1.2438254057225788,
+      "Peak500": 1.265144199521543,
+      "PeakLocation": [
+        4.1015625,
+        4.1015625,
+-198.4360352
+      ],
+      "Peak500Location": [
+        4.1015625,
+        4.1015625,
+-198.4360352
+      ]
+    },
+    {
+      "ModelPointId": 21,
+      "Center": [
+        9.514485229446683,
+        1.8705413615925863,
+-192.7232242
+      ],
+      "Diameter": 13.0,
+      "IsInsert": false,
+      "Mean": 1.1112224334601615,
+      "StdDev": 0.14501260119189155,
+      "Max": 1.3679639101028442,
+      "Peak": 1.2219516972960804,
+      "Peak500": 1.2214609411160446,
+      "PeakLocation": [
+        6.8359375,
+        1.3671875,
+-198.4360352
+      ],
+      "Peak500Location": [
+        9.5703125,
+        4.1015625,
+-198.4360352
+      ]
+    },
+    {
+      "ModelPointId": 21,
+      "Center": [
+        9.514485229446683,
+        1.8705413615925863,
+-192.7232242
+      ],
+      "Diameter": 10.0,
+      "IsInsert": false,
+      "Mean": 1.0894614367447926,
+      "StdDev": 0.1403091459626382,
+      "Max": 1.3061710596084595,
+      "Peak": 1.1745476570037887,
+      "Peak500": 1.1533560411400616,
+      "PeakLocation": [
+        6.8359375,
+        4.1015625,
+-195.1660461
+      ],
+      "Peak500Location": [
+        6.8359375,
+        4.1015625,
+-195.1660461
+      ]
+    },
+    {
+      "ModelPointId": 21,
+      "Center": [
+        9.514485229446683,
+        1.8705413615925863,
+-192.7232242
+      ],
+      "Diameter": 7.0,
+      "IsInsert": false,
+      "Mean": 1.0767362184289075,
+      "StdDev": 0.12609623463408942,
+      "Max": 1.2110306024551392,
+      "Peak": 1.1324325147102912,
+      "Peak500": 1.1312820176471057,
+      "PeakLocation": [
+        6.8359375,
+        1.3671875,
+-191.8960571
+      ],
+      "Peak500Location": [
+        9.5703125,
+        -1.3671875,
+-191.8960571
+      ]
+    },
+    {
+      "ModelPointId": 22,
+      "Center": [
+        2.08063892535297,
+        -2.633990375909491,
+-415.1870333
+      ],
+      "Diameter": 37.0,
+      "IsInsert": false,
+      "Mean": 1.3638435119590426,
+      "StdDev": 0.2050610204432536,
+      "Max": 2.014160394668579,
+      "Peak": 1.5987564687658797,
+      "Peak500": 1.681421525176047,
+      "PeakLocation": [
+        12.3046875,
+        1.3671875,
+-401.175354
+      ],
+      "Peak500Location": [
+        9.5703125,
+        4.1015625,
+-401.175354
+      ]
+    },
+    {
+      "ModelPointId": 22,
+      "Center": [
+        2.08063892535297,
+        -2.633990375909491,
+-415.1870333
+      ],
+      "Diameter": 28.0,
+      "IsInsert": false,
+      "Mean": 1.3430641652911879,
+      "StdDev": 0.2219525958697716,
+      "Max": 2.014160394668579,
+      "Peak": 1.557626380681014,
+      "Peak500": 1.6296624258572414,
+      "PeakLocation": [
+        -6.8359375,
+        4.1015625,
+-407.715332
+      ],
+      "Peak500Location": [
+        -4.1015625,
+        -6.8359375,
+-404.445343
+      ]
+    },
+    {
+      "ModelPointId": 22,
+      "Center": [
+        2.08063892535297,
+        -2.633990375909491,
+-415.1870333
+      ],
+      "Diameter": 22.0,
+      "IsInsert": false,
+      "Mean": 1.2954719711668172,
+      "StdDev": 0.239967652182457,
+      "Max": 2.014160394668579,
+      "Peak": 1.5603229210557918,
+      "Peak500": 1.629400678196505,
+      "PeakLocation": [
+        -1.3671875,
+        -12.3046875,
+-414.2553101
+      ],
+      "Peak500Location": [
+        -1.3671875,
+        -12.3046875,
+-414.2553101
+      ]
+    },
+    {
+      "ModelPointId": 22,
+      "Center": [
+        2.08063892535297,
+        -2.633990375909491,
+-415.1870333
+      ],
+      "Diameter": 17.0,
+      "IsInsert": false,
+      "Mean": 1.2637198578398356,
+      "StdDev": 0.20706323350875608,
+      "Max": 1.655029058456421,
+      "Peak": 1.4574520884925548,
+      "Peak500": 1.4769782979706918,
+      "PeakLocation": [
+        -1.3671875,
+        -9.5703125,
+-417.5252991
+      ],
+      "Peak500Location": [
+        -1.3671875,
+        -9.5703125,
+-414.2553101
+      ]
+    },
+    {
+      "ModelPointId": 22,
+      "Center": [
+        2.08063892535297,
+        -2.633990375909491,
+-415.1870333
+      ],
+      "Diameter": 13.0,
+      "IsInsert": false,
+      "Mean": 1.2417837897298,
+      "StdDev": 0.20785811787817746,
+      "Max": 1.655029058456421,
+      "Peak": 1.3622901662965852,
+      "Peak500": 1.34715934069925,
+      "PeakLocation": [
+        -1.3671875,
+        -6.8359375,
+-417.5252991
+      ],
+      "Peak500Location": [
+        -1.3671875,
+        -6.8359375,
+-417.5252991
+      ]
+    },
+    {
+      "ModelPointId": 22,
+      "Center": [
+        2.08063892535297,
+        -2.633990375909491,
+-415.1870333
+      ],
+      "Diameter": 10.0,
+      "IsInsert": false,
+      "Mean": 1.2256658028463925,
+      "StdDev": 0.21327599277533532,
+      "Max": 1.5051740407943726,
+      "Peak": 1.337082292356979,
+      "Peak500": 1.343787850776549,
+      "PeakLocation": [
+        1.3671875,
+        -6.8359375,
+-417.5252991
+      ],
+      "Peak500Location": [
+        1.3671875,
+        -6.8359375,
+-417.5252991
+      ]
+    },
+    {
+      "ModelPointId": 22,
+      "Center": [
+        2.08063892535297,
+        -2.633990375909491,
+-415.1870333
+      ],
+      "Diameter": 7.0,
+      "IsInsert": false,
+      "Mean": 1.1498635230989889,
+      "StdDev": 0.18544187404310836,
+      "Max": 1.4801126718521118,
+      "Peak": 1.2833159482276038,
+      "Peak500": 1.292878702370317,
+      "PeakLocation": [
+        0.0,
+        -4.1015625,
+-417.5252991
+      ],
+      "Peak500Location": [
+        0.0,
+        -4.1015625,
+-417.5252991
+      ]
+    },
+    {
+      "ModelPointId": 23,
+      "Center": [
+        -132.8827879976323,
+        -31.74901669712338,
+-249.7833208
+      ],
+      "Diameter": 37.0,
+      "IsInsert": false,
+      "Mean": 1.1083720836838362,
+      "StdDev": 0.1659881402817751,
+      "Max": 1.5504716634750366,
+      "Peak": 1.2728113755350896,
+      "Peak500": 1.3244081287213025,
+      "PeakLocation": [
+        -129.8828125,
+        -20.5078125,
+-263.8358154
+      ],
+      "Peak500Location": [
+        -129.8828125,
+        -20.5078125,
+-263.8358154
+      ]
+    },
+    {
+      "ModelPointId": 23,
+      "Center": [
+        -132.8827879976323,
+        -31.74901669712338,
+-249.7833208
+      ],
+      "Diameter": 28.0,
+      "IsInsert": false,
+      "Mean": 1.101386929925586,
+      "StdDev": 0.1638231973852302,
+      "Max": 1.5068742036819458,
+      "Peak": 1.2501189184680215,
+      "Peak500": 1.2693514852103385,
+      "PeakLocation": [
+        -143.5546875,
+        -23.2421875,
+-247.4858704
+      ],
+      "Peak500Location": [
+        -143.5546875,
+        -23.2421875,
+-247.4858704
+      ]
+    },
+    {
+      "ModelPointId": 23,
+      "Center": [
+        -132.8827879976323,
+        -31.74901669712338,
+-249.7833208
+      ],
+      "Diameter": 22.0,
+      "IsInsert": false,
+      "Mean": 1.0812590130856587,
+      "StdDev": 0.17534943154169394,
+      "Max": 1.4512168169021606,
+      "Peak": 1.183940180280603,
+      "Peak500": 1.2269972551566182,
+      "PeakLocation": [
+        -124.4140625,
+        -36.9140625,
+-254.0258484
+      ],
+      "Peak500Location": [
+        -127.1484375,
+        -36.9140625,
+-257.2958374
+      ]
+    },
+    {
+      "ModelPointId": 23,
+      "Center": [
+        -132.8827879976323,
+        -31.74901669712338,
+-249.7833208
+      ],
+      "Diameter": 17.0,
+      "IsInsert": false,
+      "Mean": 1.0527068517867646,
+      "StdDev": 0.18080173518108408,
+      "Max": 1.3925769329071045,
+      "Peak": 1.1595356013159388,
+      "Peak500": 1.1938873056993722,
+      "PeakLocation": [
+        -127.1484375,
+        -34.1796875,
+-254.0258484
+      ],
+      "Peak500Location": [
+        -127.1484375,
+        -34.1796875,
+-254.0258484
+      ]
+    },
+    {
+      "ModelPointId": 23,
+      "Center": [
+        -132.8827879976323,
+        -31.74901669712338,
+-249.7833208
+      ],
+      "Diameter": 13.0,
+      "IsInsert": false,
+      "Mean": 1.017259681723979,
+      "StdDev": 0.2071197919808751,
+      "Max": 1.3925769329071045,
+      "Peak": 1.131718639871657,
+      "Peak500": 1.1675470159234993,
+      "PeakLocation": [
+        -129.8828125,
+        -34.1796875,
+-254.0258484
+      ],
+      "Peak500Location": [
+        -129.8828125,
+        -34.1796875,
+-254.0258484
+      ]
+    },
+    {
+      "ModelPointId": 23,
+      "Center": [
+        -132.8827879976323,
+        -31.74901669712338,
+-249.7833208
+      ],
+      "Diameter": 10.0,
+      "IsInsert": false,
+      "Mean": 0.9895151550480727,
+      "StdDev": 0.20869591548881225,
+      "Max": 1.3579901456832886,
+      "Peak": 1.0997491817550986,
+      "Peak500": 1.140128302375204,
+      "PeakLocation": [
+        -132.6171875,
+        -34.1796875,
+-254.0258484
+      ],
+      "Peak500Location": [
+        -132.6171875,
+        -31.4453125,
+-254.0258484
+      ]
+    },
+    {
+      "ModelPointId": 23,
+      "Center": [
+        -132.8827879976323,
+        -31.74901669712338,
+-249.7833208
+      ],
+      "Diameter": 7.0,
+      "IsInsert": false,
+      "Mean": 0.9492574425784177,
+      "StdDev": 0.3153619647200264,
+      "Max": 1.3579901456832886,
+      "Peak": 1.0626256967279617,
+      "Peak500": 1.0661560588800143,
+      "PeakLocation": [
+        -129.8828125,
+        -31.4453125,
+-250.7558594
+      ],
+      "Peak500Location": [
+        -129.8828125,
+        -31.4453125,
+-250.7558594
+      ]
+    },
+    {
+      "ModelPointId": 24,
+      "Center": [
+        134.21564277574456,
+        -20.891515536473037,
+-238.5170984
+      ],
+      "Diameter": 37.0,
+      "IsInsert": false,
+      "Mean": 1.0713393138575105,
+      "StdDev": 0.1854432937314391,
+      "Max": 1.9177912473678589,
+      "Peak": 1.4446248668063133,
+      "Peak500": 1.5233131535916802,
+      "PeakLocation": [
+        132.6171875,
+        -12.3046875,
+-254.0258484
+      ],
+      "Peak500Location": [
+        132.6171875,
+        -12.3046875,
+-250.7558594
+      ]
+    },
+    {
+      "ModelPointId": 24,
+      "Center": [
+        134.21564277574456,
+        -20.891515536473037,
+-238.5170984
+      ],
+      "Diameter": 28.0,
+      "IsInsert": false,
+      "Mean": 1.0754231468273265,
+      "StdDev": 0.18982734159545717,
+      "Max": 1.9177912473678589,
+      "Peak": 1.3699093598884795,
+      "Peak500": 1.4164060108963956,
+      "PeakLocation": [
+        132.6171875,
+        -15.0390625,
+-250.7558594
+      ],
+      "Peak500Location": [
+        132.6171875,
+        -15.0390625,
+-250.7558594
+      ]
+    },
+    {
+      "ModelPointId": 24,
+      "Center": [
+        134.21564277574456,
+        -20.891515536473037,
+-238.5170984
+      ],
+      "Diameter": 22.0,
+      "IsInsert": false,
+      "Mean": 1.059877154120575,
+      "StdDev": 0.18720199707417037,
+      "Max": 1.5919427871704102,
+      "Peak": 1.2876427977604785,
+      "Peak500": 1.319750067779019,
+      "PeakLocation": [
+        132.6171875,
+        -15.0390625,
+-247.4858704
+      ],
+      "Peak500Location": [
+        132.6171875,
+        -15.0390625,
+-247.4858704
+      ]
+    },
+    {
+      "ModelPointId": 24,
+      "Center": [
+        134.21564277574456,
+        -20.891515536473037,
+-238.5170984
+      ],
+      "Diameter": 17.0,
+      "IsInsert": false,
+      "Mean": 1.045665163178512,
+      "StdDev": 0.17343958705909152,
+      "Max": 1.3969558477401733,
+      "Peak": 1.142744979873361,
+      "Peak500": 1.161059902530669,
+      "PeakLocation": [
+        138.0859375,
+        -15.0390625,
+-234.4059143
+      ],
+      "Peak500Location": [
+        138.0859375,
+        -15.0390625,
+-234.4059143
+      ]
+    },
+    {
+      "ModelPointId": 24,
+      "Center": [
+        134.21564277574456,
+        -20.891515536473037,
+-238.5170984
+      ],
+      "Diameter": 13.0,
+      "IsInsert": false,
+      "Mean": 1.0201799946959498,
+      "StdDev": 0.193451712986191,
+      "Max": 1.3480781316757202,
+      "Peak": 1.1215046782291809,
+      "Peak500": 1.1592862353297273,
+      "PeakLocation": [
+        138.0859375,
+        -17.7734375,
+-234.4059143
+      ],
+      "Peak500Location": [
+        138.0859375,
+        -17.7734375,
+-234.4059143
+      ]
+    },
+    {
+      "ModelPointId": 24,
+      "Center": [
+        134.21564277574456,
+        -20.891515536473037,
+-238.5170984
+      ],
+      "Diameter": 10.0,
+      "IsInsert": false,
+      "Mean": 0.9960090791753862,
+      "StdDev": 0.1931809822496075,
+      "Max": 1.3299133777618408,
+      "Peak": 1.0637288603085306,
+      "Peak500": 1.0869340067123934,
+      "PeakLocation": [
+        135.3515625,
+        -20.5078125,
+-234.4059143
+      ],
+      "Peak500Location": [
+        135.3515625,
+        -20.5078125,
+-234.4059143
+      ]
+    },
+    {
+      "ModelPointId": 24,
+      "Center": [
+        134.21564277574456,
+        -20.891515536473037,
+-238.5170984
+      ],
+      "Diameter": 7.0,
+      "IsInsert": false,
+      "Mean": 0.9725680296577187,
+      "StdDev": 0.19356402387287583,
+      "Max": 1.3299133777618408,
+      "Peak": 1.0717320155111463,
+      "Peak500": 1.092219416719148,
+      "PeakLocation": [
+        135.3515625,
+        -19.140625,
+-236.0409088
+      ],
+      "Peak500Location": [
+        135.3515625,
+        -19.140625,
+-236.0409088
+      ]
+    },
+    {
+      "ModelPointId": 25,
+      "Center": [
+        20.2679012437939,
+        -28.862960744238848,
+-419.8929478
+      ],
+      "Diameter": 37.0,
+      "IsInsert": false,
+      "Mean": 1.197217739656686,
+      "StdDev": 0.19555854820401597,
+      "Max": 1.8053107261657715,
+      "Peak": 1.4740454471857671,
+      "Peak500": 1.5374439680864012,
+      "PeakLocation": [
+        12.3046875,
+        -15.0390625,
+-410.985321
+      ],
+      "Peak500Location": [
+        15.0390625,
+        -15.0390625,
+-410.985321
+      ]
+    },
+    {
+      "ModelPointId": 25,
+      "Center": [
+        20.2679012437939,
+        -28.862960744238848,
+-419.8929478
+      ],
+      "Diameter": 28.0,
+      "IsInsert": false,
+      "Mean": 1.1688574963542913,
+      "StdDev": 0.18849385880901248,
+      "Max": 1.7064006328582764,
+      "Peak": 1.395362622580344,
+      "Peak500": 1.4208915785053615,
+      "PeakLocation": [
+        9.5703125,
+        -23.2421875,
+-414.2553101
+      ],
+      "Peak500Location": [
+        9.5703125,
+        -23.2421875,
+-414.2553101
+      ]
+    },
+    {
+      "ModelPointId": 25,
+      "Center": [
+        20.2679012437939,
+        -28.862960744238848,
+-419.8929478
+      ],
+      "Diameter": 22.0,
+      "IsInsert": false,
+      "Mean": 1.169317492593802,
+      "StdDev": 0.18133284007084569,
+      "Max": 1.6500424146652222,
+      "Peak": 1.3576030965183468,
+      "Peak500": 1.4188275158103667,
+      "PeakLocation": [
+        12.3046875,
+        -25.9765625,
+-414.2553101
+      ],
+      "Peak500Location": [
+        12.3046875,
+        -25.9765625,
+-414.2553101
+      ]
+    },
+    {
+      "ModelPointId": 25,
+      "Center": [
+        20.2679012437939,
+        -28.862960744238848,
+-419.8929478
+      ],
+      "Diameter": 17.0,
+      "IsInsert": false,
+      "Mean": 1.1813223691802888,
+      "StdDev": 0.18996919189634606,
+      "Max": 1.6500424146652222,
+      "Peak": 1.316911394171334,
+      "Peak500": 1.3692109889792017,
+      "PeakLocation": [
+        15.0390625,
+        -25.9765625,
+-414.2553101
+      ],
+      "Peak500Location": [
+        15.0390625,
+        -25.9765625,
+-414.2553101
+      ]
+    },
+    {
+      "ModelPointId": 25,
+      "Center": [
+        20.2679012437939,
+        -28.862960744238848,
+-419.8929478
+      ],
+      "Diameter": 13.0,
+      "IsInsert": false,
+      "Mean": 1.1873338176998096,
+      "StdDev": 0.19870945127187592,
+      "Max": 1.616211175918579,
+      "Peak": 1.2701569450442447,
+      "Peak500": 1.2770477267596303,
+      "PeakLocation": [
+        15.0390625,
+        -25.9765625,
+-417.5252991
+      ],
+      "Peak500Location": [
+        15.0390625,
+        -25.9765625,
+-417.5252991
+      ]
+    },
+    {
+      "ModelPointId": 25,
+      "Center": [
+        20.2679012437939,
+        -28.862960744238848,
+-419.8929478
+      ],
+      "Diameter": 10.0,
+      "IsInsert": false,
+      "Mean": 1.1899658651256153,
+      "StdDev": 0.21492258056084534,
+      "Max": 1.3953521251678467,
+      "Peak": 1.2298461301592467,
+      "Peak500": 1.2398722707447996,
+      "PeakLocation": [
+        17.7734375,
+        -25.9765625,
+-417.5252991
+      ],
+      "Peak500Location": [
+        17.7734375,
+        -25.9765625,
+-417.5252991
+      ]
+    },
+    {
+      "ModelPointId": 25,
+      "Center": [
+        20.2679012437939,
+        -28.862960744238848,
+-419.8929478
+      ],
+      "Diameter": 7.0,
+      "IsInsert": false,
+      "Mean": 1.185805847817508,
+      "StdDev": 0.22708445016468315,
+      "Max": 1.3953521251678467,
+      "Peak": 1.2096053630689974,
+      "Peak500": 1.2373540101289373,
+      "PeakLocation": [
+        23.2421875,
+        -28.7109375,
+-420.7952881
+      ],
+      "Peak500Location": [
+        23.2421875,
+        -28.7109375,
+-420.7952881
+      ]
+    },
+    {
+      "ModelPointId": 26,
+      "Center": [
+        25.561911646171147,
+        -24.43227496069028,
+-196.7767293
+      ],
+      "Diameter": 37.0,
+      "IsInsert": false,
+      "Mean": 1.079906998574046,
+      "StdDev": 0.14566062504279478,
+      "Max": 1.556931972503662,
+      "Peak": 1.3100816206317052,
+      "Peak500": 1.3367797951665348,
+      "PeakLocation": [
+        20.5078125,
+        -9.5703125,
+-204.9760132
+      ],
+      "Peak500Location": [
+        20.5078125,
+        -12.3046875,
+-204.9760132
+      ]
+    },
+    {
+      "ModelPointId": 26,
+      "Center": [
+        25.561911646171147,
+        -24.43227496069028,
+-196.7767293
+      ],
+      "Diameter": 28.0,
+      "IsInsert": false,
+      "Mean": 1.089502967147827,
+      "StdDev": 0.15113608717616706,
+      "Max": 1.556931972503662,
+      "Peak": 1.2780488772908332,
+      "Peak500": 1.3307143965900603,
+      "PeakLocation": [
+        34.1796875,
+        -15.0390625,
+-201.7060242
+      ],
+      "Peak500Location": [
+        34.1796875,
+        -15.0390625,
+-201.7060242
+      ]
+    },
+    {
+      "ModelPointId": 26,
+      "Center": [
+        25.561911646171147,
+        -24.43227496069028,
+-196.7767293
+      ],
+      "Diameter": 22.0,
+      "IsInsert": false,
+      "Mean": 1.0797514529258774,
+      "StdDev": 0.15187182384407144,
+      "Max": 1.556931972503662,
+      "Peak": 1.228459214268776,
+      "Peak500": 1.2635984779181473,
+      "PeakLocation": [
+        23.2421875,
+        -15.0390625,
+-201.7060242
+      ],
+      "Peak500Location": [
+        20.5078125,
+        -20.5078125,
+-198.4360352
+      ]
+    },
+    {
+      "ModelPointId": 26,
+      "Center": [
+        25.561911646171147,
+        -24.43227496069028,
+-196.7767293
+      ],
+      "Diameter": 17.0,
+      "IsInsert": false,
+      "Mean": 1.075789687456649,
+      "StdDev": 0.16684567010346765,
+      "Max": 1.556931972503662,
+      "Peak": 1.203391161755465,
+      "Peak500": 1.2635984779181473,
+      "PeakLocation": [
+        20.5078125,
+        -20.5078125,
+-195.1660461
+      ],
+      "Peak500Location": [
+        20.5078125,
+        -20.5078125,
+-198.4360352
+      ]
+    },
+    {
+      "ModelPointId": 26,
+      "Center": [
+        25.561911646171147,
+        -24.43227496069028,
+-196.7767293
+      ],
+      "Diameter": 13.0,
+      "IsInsert": false,
+      "Mean": 1.090289200148745,
+      "StdDev": 0.20060006063008465,
+      "Max": 1.556931972503662,
+      "Peak": 1.1869381060763766,
+      "Peak500": 1.230369539408657,
+      "PeakLocation": [
+        20.5078125,
+        -23.2421875,
+-195.1660461
+      ],
+      "Peak500Location": [
+        20.5078125,
+        -23.2421875,
+-195.1660461
+      ]
+    },
+    {
+      "ModelPointId": 26,
+      "Center": [
+        25.561911646171147,
+        -24.43227496069028,
+-196.7767293
+      ],
+      "Diameter": 10.0,
+      "IsInsert": false,
+      "Mean": 1.1121012687627625,
+      "StdDev": 0.2545343882133786,
+      "Max": 1.556931972503662,
+      "Peak": 1.1732982343561627,
+      "Peak500": 1.2228822048250307,
+      "PeakLocation": [
+        23.2421875,
+        -20.5078125,
+-198.4360352
+      ],
+      "Peak500Location": [
+        23.2421875,
+        -20.5078125,
+-198.4360352
+      ]
+    },
+    {
+      "ModelPointId": 26,
+      "Center": [
+        25.561911646171147,
+        -24.43227496069028,
+-196.7767293
+      ],
+      "Diameter": 7.0,
+      "IsInsert": false,
+      "Mean": 1.089332748937631,
+      "StdDev": 0.2098347434756885,
+      "Max": 1.5159738063812256,
+      "Peak": 1.1596573057065684,
+      "Peak500": 1.200766967593045,
+      "PeakLocation": [
+        23.2421875,
+        -21.875,
+-196.8010406
+      ],
+      "Peak500Location": [
+        23.2421875,
+        -23.2421875,
+-198.4360352
+      ]
+    },
+    {
+      "ModelPointId": 27,
+      "Center": [
+        -65.89897675534345,
+        -32.393051756399814,
+-424.9891954
+      ],
+      "Diameter": 37.0,
+      "IsInsert": false,
+      "Mean": 1.0922870260700908,
+      "StdDev": 0.16080491362746788,
+      "Max": 1.5798346996307373,
+      "Peak": 1.342094276895815,
+      "Peak500": 1.376990662689754,
+      "PeakLocation": [
+        -53.3203125,
+        -20.5078125,
+-424.0652771
+      ],
+      "Peak500Location": [
+        -53.3203125,
+        -20.5078125,
+-424.0652771
+      ]
+    },
+    {
+      "ModelPointId": 27,
+      "Center": [
+        -65.89897675534345,
+        -32.393051756399814,
+-424.9891954
+      ],
+      "Diameter": 28.0,
+      "IsInsert": false,
+      "Mean": 1.0785054585003178,
+      "StdDev": 0.16823387188214273,
+      "Max": 1.5313423871994019,
+      "Peak": 1.2998408560706063,
+      "Peak500": 1.340166680761328,
+      "PeakLocation": [
+        -56.0546875,
+        -23.2421875,
+-427.3352661
+      ],
+      "Peak500Location": [
+        -61.5234375,
+        -23.2421875,
+-433.8752441
+      ]
+    },
+    {
+      "ModelPointId": 27,
+      "Center": [
+        -65.89897675534345,
+        -32.393051756399814,
+-424.9891954
+      ],
+      "Diameter": 22.0,
+      "IsInsert": false,
+      "Mean": 1.0770701307596118,
+      "StdDev": 0.16928807646493355,
+      "Max": 1.5313423871994019,
+      "Peak": 1.2826114567282334,
+      "Peak500": 1.326937168778589,
+      "PeakLocation": [
+        -58.7890625,
+        -25.9765625,
+-427.3352661
+      ],
+      "Peak500Location": [
+        -58.7890625,
+        -25.9765625,
+-427.3352661
+      ]
+    },
+    {
+      "ModelPointId": 27,
+      "Center": [
+        -65.89897675534345,
+        -32.393051756399814,
+-424.9891954
+      ],
+      "Diameter": 17.0,
+      "IsInsert": false,
+      "Mean": 1.0765280591262267,
+      "StdDev": 0.17382024837364538,
+      "Max": 1.5313423871994019,
+      "Peak": 1.2494841218562327,
+      "Peak500": 1.2867195939492175,
+      "PeakLocation": [
+        -61.5234375,
+        -25.9765625,
+-427.3352661
+      ],
+      "Peak500Location": [
+        -58.7890625,
+        -28.7109375,
+-427.3352661
+      ]
+    },
+    {
+      "ModelPointId": 27,
+      "Center": [
+        -65.89897675534345,
+        -32.393051756399814,
+-424.9891954
+      ],
+      "Diameter": 13.0,
+      "IsInsert": false,
+      "Mean": 1.071102354672065,
+      "StdDev": 0.1867056833700595,
+      "Max": 1.5313423871994019,
+      "Peak": 1.2073668762066334,
+      "Peak500": 1.2416550976471832,
+      "PeakLocation": [
+        -61.5234375,
+        -28.7109375,
+-427.3352661
+      ],
+      "Peak500Location": [
+        -61.5234375,
+        -28.7109375,
+-427.3352661
+      ]
+    },
+    {
+      "ModelPointId": 27,
+      "Center": [
+        -65.89897675534345,
+        -32.393051756399814,
+-424.9891954
+      ],
+      "Diameter": 10.0,
+      "IsInsert": false,
+      "Mean": 1.0628694589281933,
+      "StdDev": 0.1720565950582488,
+      "Max": 1.3649396896362305,
+      "Peak": 1.1692166096572885,
+      "Peak500": 1.1774270277558798,
+      "PeakLocation": [
+        -64.2578125,
+        -28.7109375,
+-427.3352661
+      ],
+      "Peak500Location": [
+        -64.2578125,
+        -28.7109375,
+-427.3352661
+      ]
+    },
+    {
+      "ModelPointId": 27,
+      "Center": [
+        -65.89897675534345,
+        -32.393051756399814,
+-424.9891954
+      ],
+      "Diameter": 7.0,
+      "IsInsert": false,
+      "Mean": 1.0340342540145964,
+      "StdDev": 0.1385147759008349,
+      "Max": 1.3649396896362305,
+      "Peak": 1.1394316608308912,
+      "Peak500": 1.136326385078592,
+      "PeakLocation": [
+        -65.625,
+        -30.078125,
+-427.3352661
+      ],
+      "Peak500Location": [
+        -65.625,
+        -30.078125,
+-427.3352661
+      ]
+    },
+    {
+      "ModelPointId": 28,
+      "Center": [
+        1.1275474076205758,
+        18.01366602623993,
+-410.6244973
+      ],
+      "Diameter": 37.0,
+      "IsInsert": false,
+      "Mean": 1.3839299967729641,
+      "StdDev": 0.22963630389005188,
+      "Max": 2.1061959266662598,
+      "Peak": 1.633804230330559,
+      "Peak500": 1.6718472907426236,
+      "PeakLocation": [
+        9.5703125,
+        17.7734375,
+-394.635376
+      ],
+      "Peak500Location": [
+        -15.0390625,
+        25.9765625,
+-410.985321
+      ]
+    },
+    {
+      "ModelPointId": 28,
+      "Center": [
+        1.1275474076205758,
+        18.01366602623993,
+-410.6244973
+      ],
+      "Diameter": 28.0,
+      "IsInsert": false,
+      "Mean": 1.388929434396578,
+      "StdDev": 0.22606696089532072,
+      "Max": 1.9884953498840332,
+      "Peak": 1.5516436958649502,
+      "Peak500": 1.6000520017544722,
+      "PeakLocation": [
+        1.3671875,
+        23.2421875,
+-401.175354
+      ],
+      "Peak500Location": [
+        1.3671875,
+        23.2421875,
+-401.175354
+      ]
+    },
+    {
+      "ModelPointId": 28,
+      "Center": [
+        1.1275474076205758,
+        18.01366602623993,
+-410.6244973
+      ],
+      "Diameter": 22.0,
+      "IsInsert": false,
+      "Mean": 1.3827389136930968,
+      "StdDev": 0.23450427197855248,
+      "Max": 1.8789212703704834,
+      "Peak": 1.551537043838372,
+      "Peak500": 1.6000520017544722,
+      "PeakLocation": [
+        1.3671875,
+        23.2421875,
+-401.175354
+      ],
+      "Peak500Location": [
+        1.3671875,
+        23.2421875,
+-401.175354
+      ]
+    },
+    {
+      "ModelPointId": 28,
+      "Center": [
+        1.1275474076205758,
+        18.01366602623993,
+-410.6244973
+      ],
+      "Diameter": 17.0,
+      "IsInsert": false,
+      "Mean": 1.360076537857317,
+      "StdDev": 0.22630238127036534,
+      "Max": 1.8348841667175293,
+      "Peak": 1.5046715813500273,
+      "Peak500": 1.5383103222072505,
+      "PeakLocation": [
+        1.3671875,
+        23.2421875,
+-404.445343
+      ],
+      "Peak500Location": [
+        1.3671875,
+        23.2421875,
+-404.445343
+      ]
+    },
+    {
+      "ModelPointId": 28,
+      "Center": [
+        1.1275474076205758,
+        18.01366602623993,
+-410.6244973
+      ],
+      "Diameter": 13.0,
+      "IsInsert": false,
+      "Mean": 1.3486752273584024,
+      "StdDev": 0.23420256475307583,
+      "Max": 1.7509211301803589,
+      "Peak": 1.4644665653804803,
+      "Peak500": 1.505036169439031,
+      "PeakLocation": [
+        4.1015625,
+        15.0390625,
+-414.2553101
+      ],
+      "Peak500Location": [
+        4.1015625,
+        15.0390625,
+-414.2553101
+      ]
+    },
+    {
+      "ModelPointId": 28,
+      "Center": [
+        1.1275474076205758,
+        18.01366602623993,
+-410.6244973
+      ],
+      "Diameter": 10.0,
+      "IsInsert": false,
+      "Mean": 1.3431047784453665,
+      "StdDev": 0.26418891414865514,
+      "Max": 1.6783376932144165,
+      "Peak": 1.4445069491525586,
+      "Peak500": 1.479912065575678,
+      "PeakLocation": [
+        1.3671875,
+        15.0390625,
+-414.2553101
+      ],
+      "Peak500Location": [
+        1.3671875,
+        15.0390625,
+-414.2553101
+      ]
+    },
+    {
+      "ModelPointId": 28,
+      "Center": [
+        1.1275474076205758,
+        18.01366602623993,
+-410.6244973
+      ],
+      "Diameter": 7.0,
+      "IsInsert": false,
+      "Mean": 1.3250598647940774,
+      "StdDev": 0.2684046545837087,
+      "Max": 1.5845328569412231,
+      "Peak": 1.396185774505313,
+      "Peak500": 1.4083483991408534,
+      "PeakLocation": [
+        1.3671875,
+        15.0390625,
+-410.985321
+      ],
+      "Peak500Location": [
+        1.3671875,
+        15.0390625,
+-410.985321
+      ]
+    },
+    {
+      "ModelPointId": 29,
+      "Center": [
+        146.50535296922934,
+        27.025897644370886,
+-240.4557493
+      ],
+      "Diameter": 37.0,
+      "IsInsert": false,
+      "Mean": 1.1160850059261482,
+      "StdDev": 0.16518471955624794,
+      "Max": 1.750503420829773,
+      "Peak": 1.3578452735667725,
+      "Peak500": 1.3930533761386965,
+      "PeakLocation": [
+        132.6171875,
+        20.5078125,
+-250.7558594
+      ],
+      "Peak500Location": [
+        132.6171875,
+        20.5078125,
+-250.7558594
+      ]
+    },
+    {
+      "ModelPointId": 29,
+      "Center": [
+        146.50535296922934,
+        27.025897644370886,
+-240.4557493
+      ],
+      "Diameter": 28.0,
+      "IsInsert": false,
+      "Mean": 1.1109433447765518,
+      "StdDev": 0.16523725618939847,
+      "Max": 1.5658379793167114,
+      "Peak": 1.2976156817845568,
+      "Peak500": 1.318414649543663,
+      "PeakLocation": [
+        138.0859375,
+        17.7734375,
+-244.2158813
+      ],
+      "Peak500Location": [
+        138.0859375,
+        17.7734375,
+-244.2158813
+      ]
+    },
+    {
+      "ModelPointId": 29,
+      "Center": [
+        146.50535296922934,
+        27.025897644370886,
+-240.4557493
+      ],
+      "Diameter": 22.0,
+      "IsInsert": false,
+      "Mean": 1.1179754696461108,
+      "StdDev": 0.16580561213232592,
+      "Max": 1.4405856132507324,
+      "Peak": 1.2445698929359312,
+      "Peak500": 1.284759345979553,
+      "PeakLocation": [
+        138.0859375,
+        20.5078125,
+-240.9458923
+      ],
+      "Peak500Location": [
+        143.5546875,
+        28.7109375,
+-237.6759033
+      ]
+    },
+    {
+      "ModelPointId": 29,
+      "Center": [
+        146.50535296922934,
+        27.025897644370886,
+-240.4557493
+      ],
+      "Diameter": 17.0,
+      "IsInsert": false,
+      "Mean": 1.150561857477207,
+      "StdDev": 0.17890777080922163,
+      "Max": 1.4405856132507324,
+      "Peak": 1.234517432877354,
+      "Peak500": 1.284759345979553,
+      "PeakLocation": [
+        143.5546875,
+        28.7109375,
+-237.6759033
+      ],
+      "Peak500Location": [
+        143.5546875,
+        28.7109375,
+-237.6759033
+      ]
+    },
+    {
+      "ModelPointId": 29,
+      "Center": [
+        146.50535296922934,
+        27.025897644370886,
+-240.4557493
+      ],
+      "Diameter": 13.0,
+      "IsInsert": false,
+      "Mean": 1.1969738740141784,
+      "StdDev": 0.2070381179300252,
+      "Max": 1.4405856132507324,
+      "Peak": 1.234517432877354,
+      "Peak500": 1.284759345979553,
+      "PeakLocation": [
+        143.5546875,
+        28.7109375,
+-237.6759033
+      ],
+      "Peak500Location": [
+        143.5546875,
+        28.7109375,
+-237.6759033
+      ]
+    },
+    {
+      "ModelPointId": 29,
+      "Center": [
+        146.50535296922934,
+        27.025897644370886,
+-240.4557493
+      ],
+      "Diameter": 10.0,
+      "IsInsert": false,
+      "Mean": 1.2526394254482722,
+      "StdDev": 0.23873441141730167,
+      "Max": 1.4405856132507324,
+      "Peak": 1.234517432877354,
+      "Peak500": 1.284759345979553,
+      "PeakLocation": [
+        143.5546875,
+        28.7109375,
+-237.6759033
+      ],
+      "Peak500Location": [
+        143.5546875,
+        28.7109375,
+-237.6759033
+      ]
+    },
+    {
+      "ModelPointId": 29,
+      "Center": [
+        146.50535296922934,
+        27.025897644370886,
+-240.4557493
+      ],
+      "Diameter": 7.0,
+      "IsInsert": false,
+      "Mean": 1.2924251994250748,
+      "StdDev": 0.2075901940676442,
+      "Max": 1.4405856132507324,
+      "Peak": 1.2353670728784514,
+      "Peak500": 1.2878879287489156,
+      "PeakLocation": [
+        143.5546875,
+        27.34375,
+-239.3108978
+      ],
+      "Peak500Location": [
+        143.5546875,
+        27.34375,
+-239.3108978
+      ]
+    },
+    {
+      "ModelPointId": 30,
+      "Center": [
+        112.43705604444854,
+        22.277167282896386,
+-419.7332827
+      ],
+      "Diameter": 37.0,
+      "IsInsert": false,
+      "Mean": 1.1691295975850553,
+      "StdDev": 0.14241801816775562,
+      "Max": 1.6518110036849976,
+      "Peak": 1.3166613208698017,
+      "Peak500": 1.377531834077212,
+      "PeakLocation": [
+        99.8046875,
+        17.7734375,
+-410.985321
+      ],
+      "Peak500Location": [
+        99.8046875,
+        17.7734375,
+-410.985321
+      ]
+    },
+    {
+      "ModelPointId": 30,
+      "Center": [
+        112.43705604444854,
+        22.277167282896386,
+-419.7332827
+      ],
+      "Diameter": 28.0,
+      "IsInsert": false,
+      "Mean": 1.1688220442035675,
+      "StdDev": 0.14920458299829784,
+      "Max": 1.6518110036849976,
+      "Peak": 1.3145675741268537,
+      "Peak500": 1.3669291825297267,
+      "PeakLocation": [
+        110.7421875,
+        28.7109375,
+-430.6052551
+      ],
+      "Peak500Location": [
+        110.7421875,
+        28.7109375,
+-430.6052551
+      ]
+    },
+    {
+      "ModelPointId": 30,
+      "Center": [
+        112.43705604444854,
+        22.277167282896386,
+-419.7332827
+      ],
+      "Diameter": 22.0,
+      "IsInsert": false,
+      "Mean": 1.1549853160405736,
+      "StdDev": 0.15754204910153854,
+      "Max": 1.540789246559143,
+      "Peak": 1.2705446057797394,
+      "Peak500": 1.306331384273041,
+      "PeakLocation": [
+        110.7421875,
+        28.7109375,
+-427.3352661
+      ],
+      "Peak500Location": [
+        110.7421875,
+        28.7109375,
+-427.3352661
+      ]
+    },
+    {
+      "ModelPointId": 30,
+      "Center": [
+        112.43705604444854,
+        22.277167282896386,
+-419.7332827
+      ],
+      "Diameter": 17.0,
+      "IsInsert": false,
+      "Mean": 1.1427146434501612,
+      "StdDev": 0.15829598816226956,
+      "Max": 1.4829514026641846,
+      "Peak": 1.2308629599311989,
+      "Peak500": 1.2534942637219777,
+      "PeakLocation": [
+        110.7421875,
+        28.7109375,
+-424.0652771
+      ],
+      "Peak500Location": [
+        108.0078125,
+        28.7109375,
+-417.5252991
+      ]
+    },
+    {
+      "ModelPointId": 30,
+      "Center": [
+        112.43705604444854,
+        22.277167282896386,
+-419.7332827
+      ],
+      "Diameter": 13.0,
+      "IsInsert": false,
+      "Mean": 1.1253335502664683,
+      "StdDev": 0.17247773712964293,
+      "Max": 1.4829514026641846,
+      "Peak": 1.2112147518580825,
+      "Peak500": 1.225477634874379,
+      "PeakLocation": [
+        110.7421875,
+        25.9765625,
+-424.0652771
+      ],
+      "Peak500Location": [
+        108.0078125,
+        25.9765625,
+-417.5252991
+      ]
+    },
+    {
+      "ModelPointId": 30,
+      "Center": [
+        112.43705604444854,
+        22.277167282896386,
+-419.7332827
+      ],
+      "Diameter": 10.0,
+      "IsInsert": false,
+      "Mean": 1.1061675764902532,
+      "StdDev": 0.13769951045370987,
+      "Max": 1.3341281414031982,
+      "Peak": 1.182343336317451,
+      "Peak500": 1.1866433220053048,
+      "PeakLocation": [
+        110.7421875,
+        25.9765625,
+-417.5252991
+      ],
+      "Peak500Location": [
+        110.7421875,
+        25.9765625,
+-417.5252991
+      ]
+    },
+    {
+      "ModelPointId": 30,
+      "Center": [
+        112.43705604444854,
+        22.277167282896386,
+-419.7332827
+      ],
+      "Diameter": 7.0,
+      "IsInsert": false,
+      "Mean": 1.0723848211506648,
+      "StdDev": 0.10649837446473645,
+      "Max": 1.2778986692428589,
+      "Peak": 1.1572857341513902,
+      "Peak500": 1.1542990783239202,
+      "PeakLocation": [
+        110.7421875,
+        24.609375,
+-419.1602936
+      ],
+      "Peak500Location": [
+        110.7421875,
+        24.609375,
+-419.1602936
+      ]
+    },
+    {
+      "ModelPointId": 31,
+      "Center": [
+        -120.53674446634712,
+        16.129732715108332,
+-253.8455208
+      ],
+      "Diameter": 37.0,
+      "IsInsert": false,
+      "Mean": 1.2528172998212845,
+      "StdDev": 0.20898292029524754,
+      "Max": 1.8150081634521484,
+      "Peak": 1.4419150874498976,
+      "Peak500": 1.496083666339556,
+      "PeakLocation": [
+        -116.2109375,
+        20.5078125,
+-240.9458923
+      ],
+      "Peak500Location": [
+        -124.4140625,
+        17.7734375,
+-244.2158813
+      ]
+    },
+    {
+      "ModelPointId": 31,
+      "Center": [
+        -120.53674446634712,
+        16.129732715108332,
+-253.8455208
+      ],
+      "Diameter": 28.0,
+      "IsInsert": false,
+      "Mean": 1.2679226965420054,
+      "StdDev": 0.21335260017134242,
+      "Max": 1.8150081634521484,
+      "Peak": 1.4361506246640179,
+      "Peak500": 1.496083666339556,
+      "PeakLocation": [
+        -124.4140625,
+        17.7734375,
+-244.2158813
+      ],
+      "Peak500Location": [
+        -124.4140625,
+        17.7734375,
+-244.2158813
+      ]
+    },
+    {
+      "ModelPointId": 31,
+      "Center": [
+        -120.53674446634712,
+        16.129732715108332,
+-253.8455208
+      ],
+      "Diameter": 22.0,
+      "IsInsert": false,
+      "Mean": 1.2667535815677509,
+      "StdDev": 0.22319764699948832,
+      "Max": 1.8150081634521484,
+      "Peak": 1.4426049603151847,
+      "Peak500": 1.496083666339556,
+      "PeakLocation": [
+        -124.4140625,
+        17.7734375,
+-244.2158813
+      ],
+      "Peak500Location": [
+        -124.4140625,
+        17.7734375,
+-244.2158813
+      ]
+    },
+    {
+      "ModelPointId": 31,
+      "Center": [
+        -120.53674446634712,
+        16.129732715108332,
+-253.8455208
+      ],
+      "Diameter": 17.0,
+      "IsInsert": false,
+      "Mean": 1.2491280866173453,
+      "StdDev": 0.23838647696397403,
+      "Max": 1.8150081634521484,
+      "Peak": 1.3836619050608971,
+      "Peak500": 1.446223866651265,
+      "PeakLocation": [
+        -124.4140625,
+        17.7734375,
+-247.4858704
+      ],
+      "Peak500Location": [
+        -124.4140625,
+        15.0390625,
+-247.4858704
+      ]
+    },
+    {
+      "ModelPointId": 31,
+      "Center": [
+        -120.53674446634712,
+        16.129732715108332,
+-253.8455208
+      ],
+      "Diameter": 13.0,
+      "IsInsert": false,
+      "Mean": 1.207119185833097,
+      "StdDev": 0.2790935215801284,
+      "Max": 1.8150081634521484,
+      "Peak": 1.3008440214195258,
+      "Peak500": 1.31599647972012,
+      "PeakLocation": [
+        -124.4140625,
+        15.0390625,
+-250.7558594
+      ],
+      "Peak500Location": [
+        -124.4140625,
+        15.0390625,
+-250.7558594
+      ]
+    },
+    {
+      "ModelPointId": 31,
+      "Center": [
+        -120.53674446634712,
+        16.129732715108332,
+-253.8455208
+      ],
+      "Diameter": 10.0,
+      "IsInsert": false,
+      "Mean": 1.1659591202559825,
+      "StdDev": 0.23624871264064515,
+      "Max": 1.5916355848312378,
+      "Peak": 1.2729396522263465,
+      "Peak500": 1.2681589120351506,
+      "PeakLocation": [
+        -121.6796875,
+        15.0390625,
+-250.7558594
+      ],
+      "Peak500Location": [
+        -121.6796875,
+        15.0390625,
+-250.7558594
+      ]
+    },
+    {
+      "ModelPointId": 31,
+      "Center": [
+        -120.53674446634712,
+        16.129732715108332,
+-253.8455208
+      ],
+      "Diameter": 7.0,
+      "IsInsert": false,
+      "Mean": 1.1212164360569288,
+      "StdDev": 0.18131690259327288,
+      "Max": 1.420509696006775,
+      "Peak": 1.2544741721058872,
+      "Peak500": 1.2634889162742169,
+      "PeakLocation": [
+        -123.046875,
+        16.40625,
+-252.3908539
+      ],
+      "Peak500Location": [
+        -121.6796875,
+        15.0390625,
+-250.7558594
+      ]
+    },
+    {
+      "ModelPointId": 32,
+      "Center": [
+        -7.029806858521209,
+        14.216493053370215,
+-273.3814143
+      ],
+      "Diameter": 37.0,
+      "IsInsert": false,
+      "Mean": 1.4411940333644027,
+      "StdDev": 0.3509117978481914,
+      "Max": 4.032252311706543,
+      "Peak": 2.318713738475142,
+      "Peak500": 2.3379978407283097,
+      "PeakLocation": [
+        -6.8359375,
+        -1.3671875,
+-263.8358154
+      ],
+      "Peak500Location": [
+        -6.8359375,
+        -1.3671875,
+-263.8358154
+      ]
+    },
+    {
+      "ModelPointId": 32,
+      "Center": [
+        -7.029806858521209,
+        14.216493053370215,
+-273.3814143
+      ],
+      "Diameter": 28.0,
+      "IsInsert": false,
+      "Mean": 1.4451093885259734,
+      "StdDev": 0.30092043444482464,
+      "Max": 2.3423562049865723,
+      "Peak": 1.8093111035873437,
+      "Peak500": 1.9120314304712165,
+      "PeakLocation": [
+        -1.3671875,
+        12.3046875,
+-283.4557495
+      ],
+      "Peak500Location": [
+        -1.3671875,
+        12.3046875,
+-283.4557495
+      ]
+    },
+    {
+      "ModelPointId": 32,
+      "Center": [
+        -7.029806858521209,
+        14.216493053370215,
+-273.3814143
+      ],
+      "Diameter": 22.0,
+      "IsInsert": false,
+      "Mean": 1.4512763067336332,
+      "StdDev": 0.3083016281903581,
+      "Max": 2.205768585205078,
+      "Peak": 1.7709795479826649,
+      "Peak500": 1.8513445701521152,
+      "PeakLocation": [
+        -1.3671875,
+        9.5703125,
+-280.1857605
+      ],
+      "Peak500Location": [
+        -1.3671875,
+        12.3046875,
+-280.1857605
+      ]
+    },
+    {
+      "ModelPointId": 32,
+      "Center": [
+        -7.029806858521209,
+        14.216493053370215,
+-273.3814143
+      ],
+      "Diameter": 17.0,
+      "IsInsert": false,
+      "Mean": 1.444477060671369,
+      "StdDev": 0.3239570241696663,
+      "Max": 2.174644947052002,
+      "Peak": 1.7279536195141578,
+      "Peak500": 1.8186207439601059,
+      "PeakLocation": [
+        -4.1015625,
+        12.3046875,
+-280.1857605
+      ],
+      "Peak500Location": [
+        -4.1015625,
+        12.3046875,
+-280.1857605
+      ]
+    },
+    {
+      "ModelPointId": 32,
+      "Center": [
+        -7.029806858521209,
+        14.216493053370215,
+-273.3814143
+      ],
+      "Diameter": 13.0,
+      "IsInsert": false,
+      "Mean": 1.4421410216548898,
+      "StdDev": 0.3567292023066651,
+      "Max": 2.174644947052002,
+      "Peak": 1.6412973655320449,
+      "Peak500": 1.7051700907558156,
+      "PeakLocation": [
+        -4.1015625,
+        12.3046875,
+-276.9157715
+      ],
+      "Peak500Location": [
+        -4.1015625,
+        12.3046875,
+-276.9157715
+      ]
+    },
+    {
+      "ModelPointId": 32,
+      "Center": [
+        -7.029806858521209,
+        14.216493053370215,
+-273.3814143
+      ],
+      "Diameter": 10.0,
+      "IsInsert": false,
+      "Mean": 1.453792879840724,
+      "StdDev": 0.37208951454510775,
+      "Max": 1.9544599056243896,
+      "Peak": 1.6412973655320449,
+      "Peak500": 1.7051700907558156,
+      "PeakLocation": [
+        -4.1015625,
+        12.3046875,
+-276.9157715
+      ],
+      "Peak500Location": [
+        -4.1015625,
+        12.3046875,
+-276.9157715
+      ]
+    },
+    {
+      "ModelPointId": 32,
+      "Center": [
+        -7.029806858521209,
+        14.216493053370215,
+-273.3814143
+      ],
+      "Diameter": 7.0,
+      "IsInsert": false,
+      "Mean": 1.475986100917805,
+      "StdDev": 0.44809246828222904,
+      "Max": 1.9544599056243896,
+      "Peak": 1.5025074277353323,
+      "Peak500": 1.5306216430262658,
+      "PeakLocation": [
+        -4.1015625,
+        15.0390625,
+-273.6457825
+      ],
+      "Peak500Location": [
+        -4.1015625,
+        15.0390625,
+-273.6457825
+      ]
+    },
+    {
+      "ModelPointId": 33,
+      "Center": [
+        13.354902947157031,
+        19.570395764326662,
+-204.2642407
+      ],
+      "Diameter": 37.0,
+      "IsInsert": false,
+      "Mean": 1.2136510067848525,
+      "StdDev": 0.16717407609134366,
+      "Max": 1.7980087995529175,
+      "Peak": 1.4271930239266506,
+      "Peak500": 1.502933182289229,
+      "PeakLocation": [
+        28.7109375,
+        12.3046875,
+-208.2460022
+      ],
+      "Peak500Location": [
+        28.7109375,
+        12.3046875,
+-208.2460022
+      ]
+    },
+    {
+      "ModelPointId": 33,
+      "Center": [
+        13.354902947157031,
+        19.570395764326662,
+-204.2642407
+      ],
+      "Diameter": 28.0,
+      "IsInsert": false,
+      "Mean": 1.2152876532760881,
+      "StdDev": 0.16877006282652526,
+      "Max": 1.7394148111343384,
+      "Peak": 1.4261342252918143,
+      "Peak500": 1.4934547967707055,
+      "PeakLocation": [
+        12.3046875,
+        25.9765625,
+-208.2460022
+      ],
+      "Peak500Location": [
+        12.3046875,
+        25.9765625,
+-208.2460022
+      ]
+    },
+    {
+      "ModelPointId": 33,
+      "Center": [
+        13.354902947157031,
+        19.570395764326662,
+-204.2642407
+      ],
+      "Diameter": 22.0,
+      "IsInsert": false,
+      "Mean": 1.233991245089978,
+      "StdDev": 0.18995650004413533,
+      "Max": 1.7394148111343384,
+      "Peak": 1.4261342252918143,
+      "Peak500": 1.4934547967707055,
+      "PeakLocation": [
+        12.3046875,
+        25.9765625,
+-208.2460022
+      ],
+      "Peak500Location": [
+        12.3046875,
+        25.9765625,
+-208.2460022
+      ]
+    },
+    {
+      "ModelPointId": 33,
+      "Center": [
+        13.354902947157031,
+        19.570395764326662,
+-204.2642407
+      ],
+      "Diameter": 17.0,
+      "IsInsert": false,
+      "Mean": 1.2479274958800701,
+      "StdDev": 0.207518038413097,
+      "Max": 1.7394148111343384,
+      "Peak": 1.4261342252918143,
+      "Peak500": 1.4934547967707055,
+      "PeakLocation": [
+        12.3046875,
+        25.9765625,
+-208.2460022
+      ],
+      "Peak500Location": [
+        12.3046875,
+        25.9765625,
+-208.2460022
+      ]
+    },
+    {
+      "ModelPointId": 33,
+      "Center": [
+        13.354902947157031,
+        19.570395764326662,
+-204.2642407
+      ],
+      "Diameter": 13.0,
+      "IsInsert": false,
+      "Mean": 1.2489249063177472,
+      "StdDev": 0.2274554188010212,
+      "Max": 1.6198456287384033,
+      "Peak": 1.39434401140499,
+      "Peak500": 1.4429312171338353,
+      "PeakLocation": [
+        12.3046875,
+        23.2421875,
+-208.2460022
+      ],
+      "Peak500Location": [
+        12.3046875,
+        23.2421875,
+-208.2460022
+      ]
+    },
+    {
+      "ModelPointId": 33,
+      "Center": [
+        13.354902947157031,
+        19.570395764326662,
+-204.2642407
+      ],
+      "Diameter": 10.0,
+      "IsInsert": false,
+      "Mean": 1.2466079844426754,
+      "StdDev": 0.22895622988657566,
+      "Max": 1.6198456287384033,
+      "Peak": 1.3254208258613525,
+      "Peak500": 1.372038438312967,
+      "PeakLocation": [
+        12.3046875,
+        23.2421875,
+-204.9760132
+      ],
+      "Peak500Location": [
+        12.3046875,
+        23.2421875,
+-204.9760132
+      ]
+    },
+    {
+      "ModelPointId": 33,
+      "Center": [
+        13.354902947157031,
+        19.570395764326662,
+-204.2642407
+      ],
+      "Diameter": 7.0,
+      "IsInsert": false,
+      "Mean": 1.226244564951399,
+      "StdDev": 0.21364880344009338,
+      "Max": 1.6198456287384033,
+      "Peak": 1.3258861212474968,
+      "Peak500": 1.363086557308325,
+      "PeakLocation": [
+        12.3046875,
+        21.875,
+-206.6110077
+      ],
+      "Peak500Location": [
+        12.3046875,
+        21.875,
+-206.6110077
+      ]
+    },
+    {
+      "ModelPointId": 34,
+      "Center": [
+        -30.229210118791457,
+        -16.39529230046631,
+-216.1297797
+      ],
+      "Diameter": 37.0,
+      "IsInsert": false,
+      "Mean": 1.1710462699347053,
+      "StdDev": 0.18360111542503685,
+      "Max": 1.8008778095245361,
+      "Peak": 1.4612987788016045,
+      "Peak500": 1.5188845576665508,
+      "PeakLocation": [
+        -25.9765625,
+        -1.3671875,
+-224.5959473
+      ],
+      "Peak500Location": [
+        -28.7109375,
+        -1.3671875,
+-224.5959473
+      ]
+    },
+    {
+      "ModelPointId": 34,
+      "Center": [
+        -30.229210118791457,
+        -16.39529230046631,
+-216.1297797
+      ],
+      "Diameter": 28.0,
+      "IsInsert": false,
+      "Mean": 1.1664620859927126,
+      "StdDev": 0.18675217056223054,
+      "Max": 1.6833775043487549,
+      "Peak": 1.3474550726509684,
+      "Peak500": 1.4163648248902077,
+      "PeakLocation": [
+        -28.7109375,
+        -15.0390625,
+-227.8659363
+      ],
+      "Peak500Location": [
+        -28.7109375,
+        -15.0390625,
+-227.8659363
+      ]
+    },
+    {
+      "ModelPointId": 34,
+      "Center": [
+        -30.229210118791457,
+        -16.39529230046631,
+-216.1297797
+      ],
+      "Diameter": 22.0,
+      "IsInsert": false,
+      "Mean": 1.1860906433533986,
+      "StdDev": 0.20695097135454235,
+      "Max": 1.673413872718811,
+      "Peak": 1.2974157337362033,
+      "Peak500": 1.3332256409515424,
+      "PeakLocation": [
+        -31.4453125,
+        -15.0390625,
+-211.5159912
+      ],
+      "Peak500Location": [
+        -31.4453125,
+        -15.0390625,
+-211.5159912
+      ]
+    },
+    {
+      "ModelPointId": 34,
+      "Center": [
+        -30.229210118791457,
+        -16.39529230046631,
+-216.1297797
+      ],
+      "Diameter": 17.0,
+      "IsInsert": false,
+      "Mean": 1.2023682096266843,
+      "StdDev": 0.22050480091936775,
+      "Max": 1.6327751874923706,
+      "Peak": 1.2974157337362033,
+      "Peak500": 1.3332256409515424,
+      "PeakLocation": [
+        -31.4453125,
+        -15.0390625,
+-211.5159912
+      ],
+      "Peak500Location": [
+        -31.4453125,
+        -15.0390625,
+-211.5159912
+      ]
+    },
+    {
+      "ModelPointId": 34,
+      "Center": [
+        -30.229210118791457,
+        -16.39529230046631,
+-216.1297797
+      ],
+      "Diameter": 13.0,
+      "IsInsert": false,
+      "Mean": 1.2204814006594416,
+      "StdDev": 0.24332652465719137,
+      "Max": 1.6244782209396362,
+      "Peak": 1.2974157337362033,
+      "Peak500": 1.3332256409515424,
+      "PeakLocation": [
+        -31.4453125,
+        -15.0390625,
+-211.5159912
+      ],
+      "Peak500Location": [
+        -31.4453125,
+        -15.0390625,
+-211.5159912
+      ]
+    },
+    {
+      "ModelPointId": 34,
+      "Center": [
+        -30.229210118791457,
+        -16.39529230046631,
+-216.1297797
+      ],
+      "Diameter": 10.0,
+      "IsInsert": false,
+      "Mean": 1.250482917560858,
+      "StdDev": 0.2531032379588828,
+      "Max": 1.5260456800460815,
+      "Peak": 1.2974157337362033,
+      "Peak500": 1.3332256409515424,
+      "PeakLocation": [
+        -31.4453125,
+        -15.0390625,
+-211.5159912
+      ],
+      "Peak500Location": [
+        -31.4453125,
+        -15.0390625,
+-211.5159912
+      ]
+    },
+    {
+      "ModelPointId": 34,
+      "Center": [
+        -30.229210118791457,
+        -16.39529230046631,
+-216.1297797
+      ],
+      "Diameter": 7.0,
+      "IsInsert": false,
+      "Mean": 1.293092126964264,
+      "StdDev": 0.13948086925597233,
+      "Max": 1.4846199750900269,
+      "Peak": 1.2840338192422427,
+      "Peak500": 1.3094230284962178,
+      "PeakLocation": [
+        -31.4453125,
+        -16.40625,
+-213.1509857
+      ],
+      "Peak500Location": [
+        -31.4453125,
+        -15.0390625,
+-213.1509857
+      ]
+    },
+    {
+      "ModelPointId": 35,
+      "Center": [
+        -25.81452603220385,
+        -15.676888354350353,
+-412.1677692
+      ],
+      "Diameter": 37.0,
+      "IsInsert": false,
+      "Mean": 1.3127413430609947,
+      "StdDev": 0.19750545957532237,
+      "Max": 1.8454904556274414,
+      "Peak": 1.5290687693343736,
+      "Peak500": 1.5798874669568732,
+      "PeakLocation": [
+        -15.0390625,
+        -1.3671875,
+-410.985321
+      ],
+      "Peak500Location": [
+        -15.0390625,
+        -1.3671875,
+-410.985321
+      ]
+    },
+    {
+      "ModelPointId": 35,
+      "Center": [
+        -25.81452603220385,
+        -15.676888354350353,
+-412.1677692
+      ],
+      "Diameter": 28.0,
+      "IsInsert": false,
+      "Mean": 1.3234021396530062,
+      "StdDev": 0.20504008813746616,
+      "Max": 1.8454904556274414,
+      "Peak": 1.473597650946899,
+      "Peak500": 1.519261698713094,
+      "PeakLocation": [
+        -20.5078125,
+        -4.1015625,
+-414.2553101
+      ],
+      "Peak500Location": [
+        -20.5078125,
+        -4.1015625,
+-414.2553101
+      ]
+    },
+    {
+      "ModelPointId": 35,
+      "Center": [
+        -25.81452603220385,
+        -15.676888354350353,
+-412.1677692
+      ],
+      "Diameter": 22.0,
+      "IsInsert": false,
+      "Mean": 1.338732488208011,
+      "StdDev": 0.21368118766425956,
+      "Max": 1.8454904556274414,
+      "Peak": 1.448264291115189,
+      "Peak500": 1.5010589343731657,
+      "PeakLocation": [
+        -20.5078125,
+        -6.8359375,
+-414.2553101
+      ],
+      "Peak500Location": [
+        -20.5078125,
+        -6.8359375,
+-414.2553101
+      ]
+    },
+    {
+      "ModelPointId": 35,
+      "Center": [
+        -25.81452603220385,
+        -15.676888354350353,
+-412.1677692
+      ],
+      "Diameter": 17.0,
+      "IsInsert": false,
+      "Mean": 1.3633789509525824,
+      "StdDev": 0.22621326392637817,
+      "Max": 1.8454904556274414,
+      "Peak": 1.4219191253831511,
+      "Peak500": 1.4764402113904176,
+      "PeakLocation": [
+        -25.9765625,
+        -12.3046875,
+-407.715332
+      ],
+      "Peak500Location": [
+        -25.9765625,
+        -12.3046875,
+-404.445343
+      ]
+    },
+    {
+      "ModelPointId": 35,
+      "Center": [
+        -25.81452603220385,
+        -15.676888354350353,
+-412.1677692
+      ],
+      "Diameter": 13.0,
+      "IsInsert": false,
+      "Mean": 1.3937118583518002,
+      "StdDev": 0.20507551799354462,
+      "Max": 1.6897836923599243,
+      "Peak": 1.4219191253831511,
+      "Peak500": 1.4536943070071355,
+      "PeakLocation": [
+        -25.9765625,
+        -12.3046875,
+-407.715332
+      ],
+      "Peak500Location": [
+        -25.9765625,
+        -12.3046875,
+-407.715332
+      ]
+    },
+    {
+      "ModelPointId": 35,
+      "Center": [
+        -25.81452603220385,
+        -15.676888354350353,
+-412.1677692
+      ],
+      "Diameter": 10.0,
+      "IsInsert": false,
+      "Mean": 1.4256723512026659,
+      "StdDev": 0.20299620623423056,
+      "Max": 1.6897836923599243,
+      "Peak": 1.4127482868138652,
+      "Peak500": 1.4440381650494982,
+      "PeakLocation": [
+        -25.9765625,
+        -15.0390625,
+-407.715332
+      ],
+      "Peak500Location": [
+        -25.9765625,
+        -12.3046875,
+-410.985321
+      ]
+    },
+    {
+      "ModelPointId": 35,
+      "Center": [
+        -25.81452603220385,
+        -15.676888354350353,
+-412.1677692
+      ],
+      "Diameter": 7.0,
+      "IsInsert": false,
+      "Mean": 1.472452857912391,
+      "StdDev": 0.1595455320068072,
+      "Max": 1.6897836923599243,
+      "Peak": 1.4179168746004376,
+      "Peak500": 1.4525850539868699,
+      "PeakLocation": [
+        -24.609375,
+        -13.671875,
+-410.985321
+      ],
+      "Peak500Location": [
+        -27.34375,
+        -13.671875,
+-412.6203156
+      ]
+    },
+    {
+      "ModelPointId": 36,
+      "Center": [
+        97.74794133590996,
+        -2.326892820186657,
+-416.1501312
+      ],
+      "Diameter": 37.0,
+      "IsInsert": false,
+      "Mean": 1.2101598446553905,
+      "StdDev": 0.1723506356304165,
+      "Max": 1.7651468515396118,
+      "Peak": 1.3912250066489358,
+      "Peak500": 1.427613727287264,
+      "PeakLocation": [
+        88.8671875,
+        -1.3671875,
+-417.5252991
+      ],
+      "Peak500Location": [
+        88.8671875,
+        -4.1015625,
+-414.2553101
+      ]
+    },
+    {
+      "ModelPointId": 36,
+      "Center": [
+        97.74794133590996,
+        -2.326892820186657,
+-416.1501312
+      ],
+      "Diameter": 28.0,
+      "IsInsert": false,
+      "Mean": 1.2266392463610531,
+      "StdDev": 0.16651805199469993,
+      "Max": 1.6746469736099243,
+      "Peak": 1.3912250066489358,
+      "Peak500": 1.427613727287264,
+      "PeakLocation": [
+        88.8671875,
+        -1.3671875,
+-417.5252991
+      ],
+      "Peak500Location": [
+        88.8671875,
+        -4.1015625,
+-414.2553101
+      ]
+    },
+    {
+      "ModelPointId": 36,
+      "Center": [
+        97.74794133590996,
+        -2.326892820186657,
+-416.1501312
+      ],
+      "Diameter": 22.0,
+      "IsInsert": false,
+      "Mean": 1.2193792877640186,
+      "StdDev": 0.17706011968442426,
+      "Max": 1.6746469736099243,
+      "Peak": 1.3912250066489358,
+      "Peak500": 1.427613727287264,
+      "PeakLocation": [
+        88.8671875,
+        -1.3671875,
+-417.5252991
+      ],
+      "Peak500Location": [
+        88.8671875,
+        -4.1015625,
+-414.2553101
+      ]
+    },
+    {
+      "ModelPointId": 36,
+      "Center": [
+        97.74794133590996,
+        -2.326892820186657,
+-416.1501312
+      ],
+      "Diameter": 17.0,
+      "IsInsert": false,
+      "Mean": 1.1926290311520793,
+      "StdDev": 0.19796477658312817,
+      "Max": 1.6746469736099243,
+      "Peak": 1.3497998363153387,
+      "Peak500": 1.4084866168713368,
+      "PeakLocation": [
+        91.6015625,
+        -4.1015625,
+-414.2553101
+      ],
+      "Peak500Location": [
+        91.6015625,
+        -4.1015625,
+-414.2553101
+      ]
+    },
+    {
+      "ModelPointId": 36,
+      "Center": [
+        97.74794133590996,
+        -2.326892820186657,
+-416.1501312
+      ],
+      "Diameter": 13.0,
+      "IsInsert": false,
+      "Mean": 1.1566327745788876,
+      "StdDev": 0.22207832920118856,
+      "Max": 1.6746469736099243,
+      "Peak": 1.3449350631861146,
+      "Peak500": 1.3702200053846278,
+      "PeakLocation": [
+        91.6015625,
+        -1.3671875,
+-417.5252991
+      ],
+      "Peak500Location": [
+        91.6015625,
+        -1.3671875,
+-417.5252991
+      ]
+    },
+    {
+      "ModelPointId": 36,
+      "Center": [
+        97.74794133590996,
+        -2.326892820186657,
+-416.1501312
+      ],
+      "Diameter": 10.0,
+      "IsInsert": false,
+      "Mean": 1.1362994553976893,
+      "StdDev": 0.2411246811871565,
+      "Max": 1.6746469736099243,
+      "Peak": 1.269148724721638,
+      "Peak500": 1.2857375883578135,
+      "PeakLocation": [
+        94.3359375,
+        -4.1015625,
+-414.2553101
+      ],
+      "Peak500Location": [
+        94.3359375,
+        -4.1015625,
+-414.2553101
+      ]
+    },
+    {
+      "ModelPointId": 36,
+      "Center": [
+        97.74794133590996,
+        -2.326892820186657,
+-416.1501312
+      ],
+      "Diameter": 7.0,
+      "IsInsert": false,
+      "Mean": 1.1123645619052196,
+      "StdDev": 0.1610609867761823,
+      "Max": 1.3293781280517578,
+      "Peak": 1.2313115178723844,
+      "Peak500": 1.2264575589339488,
+      "PeakLocation": [
+        94.3359375,
+        -2.734375,
+-415.8903046
+      ],
+      "Peak500Location": [
+        94.3359375,
+        -2.734375,
+-415.8903046
+      ]
+    },
+    {
+      "ModelPointId": 37,
+      "Center": [
+        -42.23210229398506,
+        -24.984353607937692,
+-420.2340806
+      ],
+      "Diameter": 37.0,
+      "IsInsert": false,
+      "Mean": 1.2289105381853422,
+      "StdDev": 0.18558212440105817,
+      "Max": 1.8454904556274414,
+      "Peak": 1.41750050081851,
+      "Peak500": 1.4746158850731281,
+      "PeakLocation": [
+        -34.1796875,
+        -15.0390625,
+-414.2553101
+      ],
+      "Peak500Location": [
+        -34.1796875,
+        -17.7734375,
+-417.5252991
+      ]
+    },
+    {
+      "ModelPointId": 37,
+      "Center": [
+        -42.23210229398506,
+        -24.984353607937692,
+-420.2340806
+      ],
+      "Diameter": 28.0,
+      "IsInsert": false,
+      "Mean": 1.2267104642025377,
+      "StdDev": 0.1931572543178225,
+      "Max": 1.7439067363739014,
+      "Peak": 1.417169726944035,
+      "Peak500": 1.4746158850731281,
+      "PeakLocation": [
+        -36.9140625,
+        -17.7734375,
+-417.5252991
+      ],
+      "Peak500Location": [
+        -34.1796875,
+        -17.7734375,
+-417.5252991
+      ]
+    },
+    {
+      "ModelPointId": 37,
+      "Center": [
+        -42.23210229398506,
+        -24.984353607937692,
+-420.2340806
+      ],
+      "Diameter": 22.0,
+      "IsInsert": false,
+      "Mean": 1.2273382494501301,
+      "StdDev": 0.19389475630620304,
+      "Max": 1.735664963722229,
+      "Peak": 1.417169726944035,
+      "Peak500": 1.4693412577284584,
+      "PeakLocation": [
+        -36.9140625,
+        -17.7734375,
+-417.5252991
+      ],
+      "Peak500Location": [
+        -36.9140625,
+        -17.7734375,
+-417.5252991
+      ]
+    },
+    {
+      "ModelPointId": 37,
+      "Center": [
+        -42.23210229398506,
+        -24.984353607937692,
+-420.2340806
+      ],
+      "Diameter": 17.0,
+      "IsInsert": false,
+      "Mean": 1.222045182642874,
+      "StdDev": 0.18781739037192863,
+      "Max": 1.735664963722229,
+      "Peak": 1.3933184488888812,
+      "Peak500": 1.4518109191167012,
+      "PeakLocation": [
+        -36.9140625,
+        -20.5078125,
+-417.5252991
+      ],
+      "Peak500Location": [
+        -36.9140625,
+        -20.5078125,
+-417.5252991
+      ]
+    },
+    {
+      "ModelPointId": 37,
+      "Center": [
+        -42.23210229398506,
+        -24.984353607937692,
+-420.2340806
+      ],
+      "Diameter": 13.0,
+      "IsInsert": false,
+      "Mean": 1.2103544012734475,
+      "StdDev": 0.20103775093637424,
+      "Max": 1.6792978048324585,
+      "Peak": 1.3597532652870108,
+      "Peak500": 1.4040005887677662,
+      "PeakLocation": [
+        -39.6484375,
+        -20.5078125,
+-417.5252991
+      ],
+      "Peak500Location": [
+        -39.6484375,
+        -20.5078125,
+-417.5252991
+      ]
+    },
+    {
+      "ModelPointId": 37,
+      "Center": [
+        -42.23210229398506,
+        -24.984353607937692,
+-420.2340806
+      ],
+      "Diameter": 10.0,
+      "IsInsert": false,
+      "Mean": 1.1987344469655645,
+      "StdDev": 0.22505059368527341,
+      "Max": 1.6153305768966675,
+      "Peak": 1.3089575908348934,
+      "Peak500": 1.3354967705769119,
+      "PeakLocation": [
+        -42.3828125,
+        -20.5078125,
+-420.7952881
+      ],
+      "Peak500Location": [
+        -39.6484375,
+        -23.2421875,
+-417.5252991
+      ]
+    },
+    {
+      "ModelPointId": 37,
+      "Center": [
+        -42.23210229398506,
+        -24.984353607937692,
+-420.2340806
+      ],
+      "Diameter": 7.0,
+      "IsInsert": false,
+      "Mean": 1.267122975369529,
+      "StdDev": 0.2405871729410899,
+      "Max": 1.6153305768966675,
+      "Peak": 1.3167395912645812,
+      "Peak500": 1.3640290860456552,
+      "PeakLocation": [
+        -39.6484375,
+        -23.2421875,
+-419.1602936
+      ],
+      "Peak500Location": [
+        -39.6484375,
+        -23.2421875,
+-419.1602936
+      ]
+    },
+    {
+      "ModelPointId": 38,
+      "Center": [
+        138.50442632793573,
+        -7.863289395798006,
+-232.9686478
+      ],
+      "Diameter": 37.0,
+      "IsInsert": false,
+      "Mean": 1.0688429965334634,
+      "StdDev": 0.1636573103769444,
+      "Max": 1.9177912473678589,
+      "Peak": 1.3516835240422693,
+      "Peak500": 1.4314625376872432,
+      "PeakLocation": [
+        132.6171875,
+        -9.5703125,
+-247.4858704
+      ],
+      "Peak500Location": [
+        132.6171875,
+        -9.5703125,
+-247.4858704
+      ]
+    },
+    {
+      "ModelPointId": 38,
+      "Center": [
+        138.50442632793573,
+        -7.863289395798006,
+-232.9686478
+      ],
+      "Diameter": 28.0,
+      "IsInsert": false,
+      "Mean": 1.0734554828209917,
+      "StdDev": 0.16916503634401234,
+      "Max": 1.6397910118103027,
+      "Peak": 1.2228194781216852,
+      "Peak500": 1.2446497832814643,
+      "PeakLocation": [
+        132.6171875,
+        -4.1015625,
+-244.2158813
+      ],
+      "Peak500Location": [
+        132.6171875,
+        -6.8359375,
+-244.2158813
+      ]
+    },
+    {
+      "ModelPointId": 38,
+      "Center": [
+        138.50442632793573,
+        -7.863289395798006,
+-232.9686478
+      ],
+      "Diameter": 22.0,
+      "IsInsert": false,
+      "Mean": 1.0998752402495104,
+      "StdDev": 0.17271107425031462,
+      "Max": 1.5919427871704102,
+      "Peak": 1.1703828725775351,
+      "Peak500": 1.219661471275514,
+      "PeakLocation": [
+        135.3515625,
+        -1.3671875,
+-240.9458923
+      ],
+      "Peak500Location": [
+        135.3515625,
+        -9.5703125,
+-231.1359253
+      ]
+    },
+    {
+      "ModelPointId": 38,
+      "Center": [
+        138.50442632793573,
+        -7.863289395798006,
+-232.9686478
+      ],
+      "Diameter": 17.0,
+      "IsInsert": false,
+      "Mean": 1.1294687428156138,
+      "StdDev": 0.17925298852436491,
+      "Max": 1.5919427871704102,
+      "Peak": 1.1631482791582766,
+      "Peak500": 1.219661471275514,
+      "PeakLocation": [
+        135.3515625,
+        -9.5703125,
+-231.1359253
+      ],
+      "Peak500Location": [
+        135.3515625,
+        -9.5703125,
+-231.1359253
+      ]
+    },
+    {
+      "ModelPointId": 38,
+      "Center": [
+        138.50442632793573,
+        -7.863289395798006,
+-232.9686478
+      ],
+      "Diameter": 13.0,
+      "IsInsert": false,
+      "Mean": 1.1457935869174385,
+      "StdDev": 0.19090292824221716,
+      "Max": 1.5919427871704102,
+      "Peak": 1.1631482791582766,
+      "Peak500": 1.219661471275514,
+      "PeakLocation": [
+        135.3515625,
+        -9.5703125,
+-231.1359253
+      ],
+      "Peak500Location": [
+        135.3515625,
+        -9.5703125,
+-231.1359253
+      ]
+    },
+    {
+      "ModelPointId": 38,
+      "Center": [
+        138.50442632793573,
+        -7.863289395798006,
+-232.9686478
+      ],
+      "Diameter": 10.0,
+      "IsInsert": false,
+      "Mean": 1.160663522108816,
+      "StdDev": 0.21772920948945865,
+      "Max": 1.5079801082611084,
+      "Peak": 1.1631482791582766,
+      "Peak500": 1.219661471275514,
+      "PeakLocation": [
+        135.3515625,
+        -9.5703125,
+-231.1359253
+      ],
+      "Peak500Location": [
+        135.3515625,
+        -9.5703125,
+-231.1359253
+      ]
+    },
+    {
+      "ModelPointId": 38,
+      "Center": [
+        138.50442632793573,
+        -7.863289395798006,
+-232.9686478
+      ],
+      "Diameter": 7.0,
+      "IsInsert": false,
+      "Mean": 1.134664369679341,
+      "StdDev": 0.16507235337984422,
+      "Max": 1.5079801082611084,
+      "Peak": 1.1538215453518366,
+      "Peak500": 1.1960389962075801,
+      "PeakLocation": [
+        136.71875,
+        -9.5703125,
+-232.7709198
+      ],
+      "Peak500Location": [
+        135.3515625,
+        -8.203125,
+-232.7709198
+      ]
+    },
+    {
+      "ModelPointId": 39,
+      "Center": [
+        142.4783662430427,
+        -8.506667272423016,
+-275.3356524
+      ],
+      "Diameter": 37.0,
+      "IsInsert": false,
+      "Mean": 1.187244498086365,
+      "StdDev": 0.16701005203982888,
+      "Max": 1.755019187927246,
+      "Peak": 1.419858038364316,
+      "Peak500": 1.4673413013834198,
+      "PeakLocation": [
+        129.8828125,
+        4.1015625,
+-276.9157715
+      ],
+      "Peak500Location": [
+        132.6171875,
+        4.1015625,
+-276.9157715
+      ]
+    },
+    {
+      "ModelPointId": 39,
+      "Center": [
+        142.4783662430427,
+        -8.506667272423016,
+-275.3356524
+      ],
+      "Diameter": 28.0,
+      "IsInsert": false,
+      "Mean": 1.167370730855566,
+      "StdDev": 0.17747521770087185,
+      "Max": 1.7297600507736206,
+      "Peak": 1.3882927830260265,
+      "Peak500": 1.4396174429872695,
+      "PeakLocation": [
+        135.3515625,
+        1.3671875,
+-276.9157715
+      ],
+      "Peak500Location": [
+        135.3515625,
+        1.3671875,
+-276.9157715
+      ]
+    },
+    {
+      "ModelPointId": 39,
+      "Center": [
+        142.4783662430427,
+        -8.506667272423016,
+-275.3356524
+      ],
+      "Diameter": 22.0,
+      "IsInsert": false,
+      "Mean": 1.1297464163592346,
+      "StdDev": 0.19526103575503018,
+      "Max": 1.6301170587539673,
+      "Peak": 1.3623114330539439,
+      "Peak500": 1.4050795719369737,
+      "PeakLocation": [
+        138.0859375,
+        1.3671875,
+-276.9157715
+      ],
+      "Peak500Location": [
+        138.0859375,
+        1.3671875,
+-273.6457825
+      ]
+    },
+    {
+      "ModelPointId": 39,
+      "Center": [
+        142.4783662430427,
+        -8.506667272423016,
+-275.3356524
+      ],
+      "Diameter": 17.0,
+      "IsInsert": false,
+      "Mean": 1.106758794798795,
+      "StdDev": 0.19400637204902577,
+      "Max": 1.592851161956787,
+      "Peak": 1.2754324606606502,
+      "Peak500": 1.3087212292368,
+      "PeakLocation": [
+        140.8203125,
+        -1.3671875,
+-273.6457825
+      ],
+      "Peak500Location": [
+        140.8203125,
+        -1.3671875,
+-273.6457825
+      ]
+    },
+    {
+      "ModelPointId": 39,
+      "Center": [
+        142.4783662430427,
+        -8.506667272423016,
+-275.3356524
+      ],
+      "Diameter": 13.0,
+      "IsInsert": false,
+      "Mean": 1.094556704638794,
+      "StdDev": 0.18183306388426088,
+      "Max": 1.446351408958435,
+      "Peak": 1.245300510103907,
+      "Peak500": 1.2763041984674148,
+      "PeakLocation": [
+        138.0859375,
+        -4.1015625,
+-273.6457825
+      ],
+      "Peak500Location": [
+        138.0859375,
+        -4.1015625,
+-273.6457825
+      ]
+    },
+    {
+      "ModelPointId": 39,
+      "Center": [
+        142.4783662430427,
+        -8.506667272423016,
+-275.3356524
+      ],
+      "Diameter": 10.0,
+      "IsInsert": false,
+      "Mean": 1.0909221833962406,
+      "StdDev": 0.1908423371927768,
+      "Max": 1.3259915113449097,
+      "Peak": 1.1607539096796609,
+      "Peak500": 1.1809740665996977,
+      "PeakLocation": [
+        146.2890625,
+        -9.5703125,
+-276.9157715
+      ],
+      "Peak500Location": [
+        146.2890625,
+        -9.5703125,
+-276.9157715
+      ]
+    },
+    {
+      "ModelPointId": 39,
+      "Center": [
+        142.4783662430427,
+        -8.506667272423016,
+-275.3356524
+      ],
+      "Diameter": 7.0,
+      "IsInsert": false,
+      "Mean": 1.119161593507816,
+      "StdDev": 0.14674653463107631,
+      "Max": 1.29915452003479,
+      "Peak": 1.1376162716948308,
+      "Peak500": 1.1775080124564108,
+      "PeakLocation": [
+        144.921875,
+        -9.5703125,
+-276.9157715
+      ],
+      "Peak500Location": [
+        140.8203125,
+        -5.46875,
+-275.280777
+      ]
+    },
+    {
+      "ModelPointId": 40,
+      "Center": [
+        1.4923394873729756,
+        -9.337555258764809,
+-382.5112746
+      ],
+      "Diameter": 37.0,
+      "IsInsert": false,
+      "Mean": 1.6121365521250817,
+      "StdDev": 1.30121453124459,
+      "Max": 9.207143783569336,
+      "Peak": 7.441850156750525,
+      "Peak500": 7.829089859966727,
+      "PeakLocation": [
+        15.0390625,
+        1.3671875,
+-378.2854309
+      ],
+      "Peak500Location": [
+        15.0390625,
+        1.3671875,
+-378.2854309
+      ]
+    },
+    {
+      "ModelPointId": 40,
+      "Center": [
+        1.4923394873729756,
+        -9.337555258764809,
+-382.5112746
+      ],
+      "Diameter": 28.0,
+      "IsInsert": false,
+      "Mean": 1.4502089655516335,
+      "StdDev": 0.8250771359136467,
+      "Max": 7.122986793518066,
+      "Peak": 4.6160936521544205,
+      "Peak500": 4.76180736011756,
+      "PeakLocation": [
+        12.3046875,
+        -1.3671875,
+-381.5554199
+      ],
+      "Peak500Location": [
+        12.3046875,
+        -1.3671875,
+-381.5554199
+      ]
+    },
+    {
+      "ModelPointId": 40,
+      "Center": [
+        1.4923394873729756,
+        -9.337555258764809,
+-382.5112746
+      ],
+      "Diameter": 22.0,
+      "IsInsert": false,
+      "Mean": 1.372598865206513,
+      "StdDev": 0.43908538884083664,
+      "Max": 3.595316171646118,
+      "Peak": 2.6470791013457644,
+      "Peak500": 2.5614846691042565,
+      "PeakLocation": [
+        9.5703125,
+        -4.1015625,
+-378.2854309
+      ],
+      "Peak500Location": [
+        9.5703125,
+        -4.1015625,
+-378.2854309
+      ]
+    },
+    {
+      "ModelPointId": 40,
+      "Center": [
+        1.4923394873729756,
+        -9.337555258764809,
+-382.5112746
+      ],
+      "Diameter": 17.0,
+      "IsInsert": false,
+      "Mean": 1.3166865425380816,
+      "StdDev": 0.33276213600831345,
+      "Max": 2.3972854614257812,
+      "Peak": 1.8638135581614805,
+      "Peak500": 1.7856316179872338,
+      "PeakLocation": [
+        6.8359375,
+        -4.1015625,
+-381.5554199
+      ],
+      "Peak500Location": [
+        6.8359375,
+        -4.1015625,
+-381.5554199
+      ]
+    },
+    {
+      "ModelPointId": 40,
+      "Center": [
+        1.4923394873729756,
+        -9.337555258764809,
+-382.5112746
+      ],
+      "Diameter": 13.0,
+      "IsInsert": false,
+      "Mean": 1.2580867557905104,
+      "StdDev": 0.27270608070179914,
+      "Max": 1.7599815130233765,
+      "Peak": 1.5265811060695922,
+      "Peak500": 1.4717633063143998,
+      "PeakLocation": [
+        6.8359375,
+        -6.8359375,
+-381.5554199
+      ],
+      "Peak500Location": [
+        -1.3671875,
+        -15.0390625,
+-381.5554199
+      ]
+    },
+    {
+      "ModelPointId": 40,
+      "Center": [
+        1.4923394873729756,
+        -9.337555258764809,
+-382.5112746
+      ],
+      "Diameter": 10.0,
+      "IsInsert": false,
+      "Mean": 1.208041515431205,
+      "StdDev": 0.308090909211679,
+      "Max": 1.7599815130233765,
+      "Peak": 1.353966996225093,
+      "Peak500": 1.3868234871820317,
+      "PeakLocation": [
+        -1.3671875,
+        -12.3046875,
+-384.8254089
+      ],
+      "Peak500Location": [
+        -1.3671875,
+        -12.3046875,
+-384.8254089
+      ]
+    },
+    {
+      "ModelPointId": 40,
+      "Center": [
+        1.4923394873729756,
+        -9.337555258764809,
+-382.5112746
+      ],
+      "Diameter": 7.0,
+      "IsInsert": false,
+      "Mean": 1.168308348206636,
+      "StdDev": 0.28032370314963106,
+      "Max": 1.5089850425720215,
+      "Peak": 1.3235561009478256,
+      "Peak500": 1.3132984405213073,
+      "PeakLocation": [
+        1.3671875,
+        -12.3046875,
+-381.5554199
+      ],
+      "Peak500Location": [
+        1.3671875,
+        -12.3046875,
+-381.5554199
+      ]
+    },
+    {
+      "ModelPointId": 41,
+      "Center": [
+        -0.2763283972607784,
+        30.840674679269924,
+-376.9024384
+      ],
+      "Diameter": 37.0,
+      "IsInsert": false,
+      "Mean": 1.4720212316423253,
+      "StdDev": 0.561076210115519,
+      "Max": 7.351634979248047,
+      "Peak": 4.7386627730551965,
+      "Peak500": 4.876552289691865,
+      "PeakLocation": [
+        12.3046875,
+        17.7734375,
+-378.2854309
+      ],
+      "Peak500Location": [
+        12.3046875,
+        17.7734375,
+-378.2854309
+      ]
+    },
+    {
+      "ModelPointId": 41,
+      "Center": [
+        -0.2763283972607784,
+        30.840674679269924,
+-376.9024384
+      ],
+      "Diameter": 28.0,
+      "IsInsert": false,
+      "Mean": 1.4539247848015515,
+      "StdDev": 0.25131706396376474,
+      "Max": 2.2785232067108154,
+      "Peak": 1.9862487439352177,
+      "Peak500": 1.9253639618551823,
+      "PeakLocation": [
+        9.5703125,
+        23.2421875,
+-378.2854309
+      ],
+      "Peak500Location": [
+        9.5703125,
+        23.2421875,
+-378.2854309
+      ]
+    },
+    {
+      "ModelPointId": 41,
+      "Center": [
+        -0.2763283972607784,
+        30.840674679269924,
+-376.9024384
+      ],
+      "Diameter": 22.0,
+      "IsInsert": false,
+      "Mean": 1.4397002814636894,
+      "StdDev": 0.2509756544926286,
+      "Max": 1.9819233417510986,
+      "Peak": 1.674997200471486,
+      "Peak500": 1.6411827624354565,
+      "PeakLocation": [
+        6.8359375,
+        23.2421875,
+-378.2854309
+      ],
+      "Peak500Location": [
+        6.8359375,
+        23.2421875,
+-378.2854309
+      ]
+    },
+    {
+      "ModelPointId": 41,
+      "Center": [
+        -0.2763283972607784,
+        30.840674679269924,
+-376.9024384
+      ],
+      "Diameter": 17.0,
+      "IsInsert": false,
+      "Mean": 1.427900927971111,
+      "StdDev": 0.2928825011480806,
+      "Max": 1.9413052797317505,
+      "Peak": 1.5727020073773053,
+      "Peak500": 1.625716065724752,
+      "PeakLocation": [
+        -4.1015625,
+        25.9765625,
+-371.7454529
+      ],
+      "Peak500Location": [
+        -4.1015625,
+        25.9765625,
+-371.7454529
+      ]
+    },
+    {
+      "ModelPointId": 41,
+      "Center": [
+        -0.2763283972607784,
+        30.840674679269924,
+-376.9024384
+      ],
+      "Diameter": 13.0,
+      "IsInsert": false,
+      "Mean": 1.4291438009336084,
+      "StdDev": 0.3287363053015957,
+      "Max": 1.9413052797317505,
+      "Peak": 1.5455961692063092,
+      "Peak500": 1.5853987971995755,
+      "PeakLocation": [
+        -1.3671875,
+        28.7109375,
+-371.7454529
+      ],
+      "Peak500Location": [
+        -1.3671875,
+        28.7109375,
+-371.7454529
+      ]
+    },
+    {
+      "ModelPointId": 41,
+      "Center": [
+        -0.2763283972607784,
+        30.840674679269924,
+-376.9024384
+      ],
+      "Diameter": 10.0,
+      "IsInsert": false,
+      "Mean": 1.4590709371609185,
+      "StdDev": 0.35637194004557055,
+      "Max": 1.9413052797317505,
+      "Peak": 1.4972172571354545,
+      "Peak500": 1.5503623126986044,
+      "PeakLocation": [
+        4.1015625,
+        31.4453125,
+-375.0154419
+      ],
+      "Peak500Location": [
+        -1.3671875,
+        28.7109375,
+-375.0154419
+      ]
+    },
+    {
+      "ModelPointId": 41,
+      "Center": [
+        -0.2763283972607784,
+        30.840674679269924,
+-376.9024384
+      ],
+      "Diameter": 7.0,
+      "IsInsert": false,
+      "Mean": 1.5403064690506039,
+      "StdDev": 0.31911395226156736,
+      "Max": 1.9413052797317505,
+      "Peak": 1.4806434061728857,
+      "Peak500": 1.5416008029128536,
+      "PeakLocation": [
+        1.3671875,
+        28.7109375,
+-376.6504364
+      ],
+      "Peak500Location": [
+        -1.3671875,
+        28.7109375,
+-375.0154419
+      ]
+    }
+  ],
+  "BackgroundMeanPerDiameter": {
+    "7": 1.1280974717800687,
+    "10": 1.1416555855820598,
+    "13": 1.166577477882237,
+    "17": 1.1863177606999578,
+    "22": 1.2021611610131366,
+    "28": 1.2166274625607418,
+    "37": 1.2218693130628389
+  },
+  "BackgroundMean": 1.2218693130628389,
+  "BackgroundCoefficientOfVariation": 0.15434222041072118,
+  "RecoveryCoefficentsMean": {
+    "0": 0.6267299550197305,
+    "1": 0.5957277991088694,
+    "2": 0.516258751760365,
+    "3": 0.4625287417821309,
+    "4": 0.4104979763717215,
+    "5": 0.33503108835323214,
+    "6": 0.17884858633594547,
+    "7": 0.5285181437520355,
+    "8": 0.45371869459201897,
+    "9": 0.3559299541416987,
+    "10": 0.3391760696692678,
+    "11": 0.3190698770969107
+  },
+  "ContrastRecoveryCoefficentsMean": {
+    "0": 0.5872202233821745,
+    "1": 0.5529365642360657,
+    "2": 0.4650559103939365,
+    "3": 0.40563870878682307,
+    "4": 0.3481006126760073,
+    "5": 0.26464573705114675,
+    "6": 0.09193169486831793,
+    "7": 0.47861292938285555,
+    "8": 0.39589613940566865,
+    "9": 0.287756697246694,
+    "10": 0.269229454616291,
+    "11": 0.24699507017997435
+  },
+  "RecoveryCoefficentsMax": {
+    "0": 0.8260126156478664,
+    "1": 0.8220946097369138,
+    "2": 0.7254473511439,
+    "3": 0.6551953274529744,
+    "4": 0.6255737982755426,
+    "5": 0.45648257677089005,
+    "6": 0.2324135220419399,
+    "7": 0.7941109556970876,
+    "8": 0.6582692942604481,
+    "9": 0.5223859837000532,
+    "10": 0.48165758573062817,
+    "11": 0.4474850213146349
+  },
+  "ContrastRecoveryCoefficentsMax": {
+    "0": 0.8075964717420877,
+    "1": 0.8032637543797936,
+    "2": 0.696386617172445,
+    "3": 0.6186985866538876,
+    "4": 0.5859416902423767,
+    "5": 0.39895257182968674,
+    "6": 0.15116634949064986,
+    "7": 0.7723180982285732,
+    "8": 0.6220979254146143,
+    "9": 0.47183169501786426,
+    "10": 0.42679229461082163,
+    "11": 0.3890026468858413
+  },
+  "RecoveryCoefficentsPeak": {
+    "0": 0.7700448807560633,
+    "1": 0.7521209321742278,
+    "2": 0.6614376622352208,
+    "3": 0.5467102508478772,
+    "4": 0.41235584784035734,
+    "5": 0.2842227232508729,
+    "6": 0.1475710781139817,
+    "7": 0.6963286792287422,
+    "8": 0.5501064870098785,
+    "9": 0.35503149557623737,
+    "10": 0.2918279855806389,
+    "11": 0.2790481047913323
+  },
+  "ContrastRecoveryCoefficentsPeak": {
+    "0": 0.7457046874504623,
+    "1": 0.7258835322540669,
+    "2": 0.6256016574779222,
+    "3": 0.49873062702351667,
+    "4": 0.3501551353469831,
+    "5": 0.20845942936503878,
+    "6": 0.057343538034819966,
+    "7": 0.6641858042484345,
+    "8": 0.5024863465706515,
+    "9": 0.2867631390146877,
+    "10": 0.21686969032173228,
+    "11": 0.20273709005456841
+  },
+  "RecoveryCoefficentsPeak500": {
+    "0": 0.7785978798573888,
+    "1": 0.7711798493280619,
+    "2": 0.6783958761944767,
+    "3": 0.5864860527450504,
+    "4": 0.4748198884041375,
+    "5": 0.33126606940520437,
+    "6": 0.1660504116086211,
+    "7": 0.7250198594026976,
+    "8": 0.5952879199710566,
+    "9": 0.40732887772920956,
+    "10": 0.34242342201193204,
+    "11": 0.32340651078020904
+  },
+  "ContrastRecoveryCoefficentsPeak500": {
+    "0": 0.7551630008242135,
+    "1": 0.7469597897012807,
+    "2": 0.6443548573772309,
+    "3": 0.5427166013675815,
+    "4": 0.4192308435569116,
+    "5": 0.26048219995185734,
+    "6": 0.07777886429403466,
+    "7": 0.6959138764641762,
+    "8": 0.55245012495521,
+    "9": 0.3445960726055468,
+    "10": 0.2728205313518356,
+    "11": 0.2517907260520115
+  },
+  "ContrastRecoveryToNoiseRatios": {
+    "7": 0.7935679664559127,
+    "10": 2.5881001311336536,
+    "13": 3.7575118028520595,
+    "17": 4.5983212243825875,
+    "22": 5.194743745007329,
+    "28": 5.9078412478817945,
+    "37": 5.613081899517511
+  }
+}

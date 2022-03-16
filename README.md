@@ -7,3 +7,4 @@ If one is interested in analyzing the detailed results obtained from NEMA or CTN
 
 The script uses JSON and pandas libraries for data framing and Matplotlib for data visualization.
 
+https://ashok-tiwari.github.io/post/json_parsing/

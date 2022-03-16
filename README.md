@@ -5,5 +5,5 @@ The Society of Nuclear Medicine and Molecular Imaging (SNMMI) provides a cloud-b
 
 If one is interested in analyzing the detailed results obtained from NEMA or CTN phantoms, one could work on the analysis.json file. This file is written in JavaScript Object Notation (JSON). The script available in this repository was written to analyze that output file.
 
-The script uses JSON and pandas libraries for data framing.
+The script uses JSON and pandas libraries for data framing and Matplotlib for data visualization.
 
